@@ -14,11 +14,11 @@ function App() {
      <div className='w-full h-100vh overflow-hidden bg-slate-700 '></div>
       <Navbar/>
     <Routes>
-        <Route path='/' exact element={Home} />
-        <Route path='/About' element={About} />
-        <Route path='/Course' element={Course} />
-        <Route path='/Contact' element={Contact} />
-        <Route path='/Signup' element={SignUp} />
+        <Route path='/' exact element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path='/Course' element={<Course />} />
+        <Route path='/Contact' element={<Contact />} />
+        <Route path='/Signup' element={<SignUp />} />
         <Route path='*' element={<Navigate to='/' />} />
     </Routes>
     </>
