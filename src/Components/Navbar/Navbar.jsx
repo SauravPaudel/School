@@ -43,6 +43,7 @@ const Navbar = () => {
             <NavLink to="/About">About</NavLink>
             <NavLink to="/Course">Course</NavLink>
             <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/Notice">Notice</NavLink>
             </div>
           </div>
           {/* secondary */}

@@ -7,11 +7,12 @@ import About from './Components/Pages/About'
 import Course from './Components/Pages/Course'
 import Contact from './Components/Pages/Contact'
 import SignUp from './Components/Pages/Signup'
+import Notice from './Components/Pages/Notice';
 
 function App() {
   return (
     <>
-     <div className='w-full h-100vh overflow-hidden bg-slate-700 '></div>
+     <div className='w-full h-100vh overflow-hidde'>
       <Navbar/>
     <Routes>
         <Route path='/' exact element={<Home />} />
@@ -19,8 +20,10 @@ function App() {
         <Route path='/Course' element={<Course />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='/Signup' element={<SignUp />} />
+        <Route path='/Notice' element={<Notice />} />
         <Route path='*' element={<Navigate to='/' />} />
     </Routes>
+    </div>
     </>
   
   );
