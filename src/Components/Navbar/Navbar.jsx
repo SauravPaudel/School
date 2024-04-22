@@ -19,13 +19,13 @@ const Navbar = () => {
   return (
     <div className="app">
     <nav>
-      <div className="max-w-7xl mx-auto">
-        <div className="flex mx-auto justify-between w-5/6 ">
+      <div className="max-w-8xl mx-auto bg-[#162545] text-white ">
+        <div className="flex mx-auto justify-between w-5/6  ">
           {/* Primary menu and logo */}
           <div className="flex items-center gap-16 my-12">
             {/* logo */}
             <div>
-              <Link className='flex gap-1 font-bold text-gray-700 items-center' to='/Home'> 
+              <Link className='flex gap-1 font-bold text-white items-center' to='/Home'> 
               <PaperAirplaneIcon className="h-6 w-6 text-primary" />
                 <span>School</span>
               </Link>
@@ -40,9 +40,9 @@ const Navbar = () => {
             {/* primary */}
             <div className="hidden lg:flex gap-8 ">
             <NavLink to="/Home">Home</NavLink>
-            <NavLink to="/About">About</NavLink>
-            <NavLink to="/Course">Course</NavLink>
-            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/Admission">Admission</NavLink>
+            <NavLink to="/Faculty">Faculty</NavLink>
+            <NavLink to="/Eca">ECA</NavLink>
             <NavLink to="/Notice">Notice</NavLink>
             </div>
           </div>
