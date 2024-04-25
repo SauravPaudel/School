@@ -26,3 +26,32 @@
   position: absolute;
   top: 30px;
 }
+
+.heading3{
+  position: relative;
+  display: inline;
+}
+.heading3::after{
+  content: " ";
+  width: 500px;
+  height:2px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 800px;
+  left: 110px;
+}
+.heading4{
+  position: relative;
+  display: inline;
+}
+.heading4::after{
+  content: " ";
+  width: 500px;
+  height:2px;
+  display: block;
+  background-color: black;
+  position: absolute;
+  top: 190px;
+  left: 920px;
+}

@@ -2,6 +2,8 @@ import React from 'react'
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import school from '../../assets/school.png'
+import school2 from '../../assets/school1.jpg'
+import school3 from '../../assets/school3.jpg'
 
 const Home = () => {
   return (
@@ -25,6 +27,7 @@ const Home = () => {
       <h1 className='heading2'></h1>
     </div>
     
+    
     <div className="flex flex-col md:flex-row sm:justify-center sm:pt-20 items-center py-10 ">
       <div className="flex flex-col gap-4 ">
         <p className="text-4xl relative left-20 sm:text-7xl capitalize font-semibold sm:flex gap-1 ">
@@ -36,21 +39,40 @@ const Home = () => {
         </p>
         <p className='text-1xl relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
        <img className='w-[1100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
-        {/* <p className="text-lg text-gray-600 sm:flex items-center justify-center">
-          Dedicate and Transform to Excelence {" "}
-          <br />
-          that help your knowledge growing.
-        </p>
-        <div className="flex gap-4 sm:items-center justify-center">
-          <button className="text-lg px-9 py-4 min-w-[120px] text-center text-white bg-violet-600 border border-violet-600 rounded active:text-violet-500 hover:bg-transparent hover:text-violet-600 focus:outline-none focus:ring">
-            Get Started
-          </button>
-          <button className="text-lg px-9 py-4 min-w-[120px] text-center text-white bg-red-600 border border-violet-600 rounded active:text-violet-500 hover:bg-transparent hover:text-violet-600 focus:outline-none focus:ring ">
-            Notice Board
-          </button>
-        </div> */}
       </div>
     </div>
+
+      <div className='bg-slate-100 h-screen w-full pt-10'>
+        <div className='text-black absolute'>
+          <div className='relative top-16'>
+             <span className='inline relative text-2xl font-bold left-[120px] top-20'>Antarikshya <br></br> School</span>
+        <div className=''>
+        <img className='w-[700px] max-sm:w-[500px] relative left-28 top-24 rounded-lg' src={school2} alt="" />
+        </div>
+        <p className='text-black max-w-[700px] relative left-28 top-28'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem</p>
+        </div>
+        <h1 className='heading4'></h1>
+      
+        </div>
+        <span className='inline relative float-right top-[820px] right-[525px] text-black font-bold'>Read more</span>
+
+        <div className='text-black absolute left-[1000px] '>
+        <div className='relative top-20'>
+        <img className='w-[600px] max-sm:w-[500px] rounded-lg py-2' src={school3} alt="" />
+        </div>
+        <div className=' relative top-28'>
+        <span className='inline  text-2xl font-bold'>Antarikshya Education Foundation</span>
+        <p className='text-black max-w-[600px] text-justify'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.  lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.</p>
+        </div>
+      
+        </div>
+        <h1 className='heading3'></h1>
+      </div>
+      <span className='block relative left-28 bottom-[115px] text-black font-bold'>Read more abour ABC school</span>
+
+        {/* Our Programs  */}
+        <div className='bg-slate-400 w-full h-sereen'></div>
+
   </div>
   )
 }
