@@ -64,14 +64,30 @@ const Home = () => {
         <span className='inline  text-2xl font-bold'>Antarikshya Education Foundation</span>
         <p className='text-black max-w-[600px] text-justify'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.  lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.</p>
         </div>
-      
         </div>
         <h1 className='heading3'></h1>
       </div>
-      <span className='block relative left-28 bottom-[115px] text-black font-bold'>Read more abour ABC school</span>
+      {/* <span className='block relative left-28 bottom-[115px] text-black font-bold'>Read more abour ABC school</span> */}
 
         {/* Our Programs  */}
-        <div className='bg-slate-400 w-full h-sereen'></div>
+        <div className='w-full h-[650px] flex flex-row pt-20'>
+          <div className='flex-col relative left-24 top-14 max-h-[400px]'>
+          <span className='text-black font-bold'>Our Program</span><br></br>
+          <p className='text-black font-bold pt-16 '>The Antariskhya School Inspire learning with <br></br> limitless possiblities</p>
+          <p className='text-black max-w-[500px] pt-6 '> lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem</p>
+
+          <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
+           Read More
+          </button>
+          </div>
+      
+          <div className='flex relative left-[300px] '>
+          <img className=' h-[500px] rounded-lg py-2' src={school3} alt="" />
+          </div>
+        </div>
+
+        
+       
 
   </div>
   )
