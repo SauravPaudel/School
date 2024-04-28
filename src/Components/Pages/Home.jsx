@@ -1,11 +1,36 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+import { FaQuoteLeft } from 'react-icons/fa';
 import school from '../../assets/school.png'
 import school2 from '../../assets/school1.jpg'
 import school3 from '../../assets/school3.jpg'
+import student from '../../assets/student.png'
+
+const testimonials = [
+  {
+    quote: 'lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem ',
+    name: 'Saurav Paudel',
+    role: 'Student',
+  },
+  {
+    quote: 'lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem ',
+    name: 'Rajesh Nepal',
+    role: 'Student',
+  },
+  // Add more testimonials as needed
+];
 
 const Home = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  const handlePrev = () => {
+    setCurrentIndex(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1);
+  };
+
+  const handleNext = () => {
+    setCurrentIndex(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1);
+  };
   return (
     <div className="container mx-auto ">
       <h1 className='heading'></h1>
@@ -119,36 +144,180 @@ const Home = () => {
 
  {/* End of Card */}  
  {/* Testimonial Section */}
-       
-        <div data-hs-carousel='{
-    "loadingClasses": "opacity-0"
-  }' className="relative">
-  <div className="hs-carousel relative overflow-hidden w-full min-h-96 bg-white rounded-lg">
-    <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
-      <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-100 p-6 dark:bg-neutral-900">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">First slide</span>
-        </div>
+ <div className="h-[60vh] w-full bg-gray-100 flex flex-col justify-center items-center mt-20">
+      <FaQuoteLeft className="text-4xl text-gray-400 mb-4" />
+      <div className="text-center max-w-2xl px-4">
+        <p className="text-lg text-gray-700 mb-4 pb-10 ">{testimonials[currentIndex].quote}</p>
+        <p className="text-gray-600 font-bold">
+          {testimonials[currentIndex].name}, {testimonials[currentIndex].role}
+        </p>
       </div>
-      <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-200 p-6 dark:bg-neutral-800">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Second slide</span>
-        </div>
+      <div className="flex mt-6">
+        <button
+          onClick={handlePrev}
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full mr-2"
+        >
+          &larr;
+        </button>
+        <button
+          onClick={handleNext}
+          className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-full"
+        >
+          &rarr;
+        </button>
       </div>
-      <div className="hs-carousel-slide">
-        <div className="flex justify-center h-full bg-gray-300 p-6 dark:bg-neutral-700">
-          <span className="self-center text-4xl text-gray-800 transition duration-700 dark:text-white">Third slide</span>
+    </div>
+
+      {/* Read more  */}
+      <div className="w-full h-[60vh] bg-[#162545] flex">
+      {/* Image */}
+      <div className="w-1/2 h-full py-10 px-10">
+        <img
+          src={school2}
+          alt="Card Image"
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      {/* Text Section */}
+      <div className="w-1/2 h-full flex flex-col justify-center px-8">
+        {/* First Text */}
+        <p className="text-white text-lg">
+          We look forward to introducing you to Antarikshya.
+        </p>
+
+        {/* Second Text */}
+        <div className="mt-4">
+          <h2 className="text-white text-2xl font-bold">Admissions</h2>
+          <p className="text-white mt-2">
+            Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+          </p>
+        </div>
+
+        {/* Read More Button */}
+        <button className="mt-8 w-32 bg-white text-[#162545] py-2 px-4 rounded-md pt-4">
+          Learn More
+        </button>
+      </div>
+    </div>
+
+      {/* Message from the principle  */}
+      <div className="w-full h-[80vh] flex justify-center items-center">
+      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
+        {/* Card 1 */}
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg ">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 1 Image"
+            className="w-full h-[300px] object-cover rounded-t-lg"
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
+            <p className="text-gray-700 mb-4 ">
+              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 flex items-center hover:text-blue-700 transition duration-300 pt-4"
+            >
+              View Detail Message
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        {/* Card 2 */}
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-[300px] object-cover rounded-t-lg"
+          />
+          <div className="p-6">
+            <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
+            <p className="text-gray-700 mb-4">
+              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
+              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+            </p>
+            <a
+              href="#"
+              className="text-blue-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              View Detail Message
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div className="hs-carousel-pagination flex justify-center absolute bottom-3 start-0 end-0 space-x-2">
-    <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500"></span>
-    <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500"></span>
-    <span className="hs-carousel-active:bg-blue-700 hs-carousel-active:border-blue-700 size-3 border border-gray-400 rounded-full cursor-pointer dark:border-neutral-600 dark:hs-carousel-active:bg-blue-500 dark:hs-carousel-active:border-blue-500"></span>
-  </div>
-</div>
+        {/* Students card  */}
+        <div className="flex justify-center items-center h-[90vh] w-full">
+      <div className="flex">
+        <div className="flex flex-col items-center  transition-all duration-300 hover:scale-105">
+          <img src={student} alt="Image 1" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
+          <h2 className="text-2xl font-bold mb-2">Student</h2>
+          <p className="text-center mb-4 w-[700px]">
+            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+          </p>
+          <button className="bg-[#162545] hover:bg-blue-700 rounded-2xl text-white font-bold py-2 px-4 transition-colors duration-300">
+            Click Here
+          </button>
+
+
+        </div>
+        <div className="h-full border-r border-gray-300 mx-8"></div>
+        <div className="flex flex-col items-center transition-all duration-300 hover:scale-105">
+          <img src={student} alt="Image 2" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
+          <h2 className="text-2xl font-bold mb-2">Library</h2>
+          <p className="text-center mb-4 w-[700px]">
+            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+          </p>
+          <button className="bg-[#162545] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl transition-colors duration-300">
+            Click Here
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
         </div>
        
   )
