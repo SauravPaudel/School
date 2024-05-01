@@ -89,7 +89,7 @@ const Faculty = () => {
           <p className='text-black font-bold pt-4 '>Our experts are diligently working to enact change. </p>
           </div>
 
-          <div className="h-screen w-full flex flex-col relative top-20 justify-center items-center">
+          <div className="h-screen w-full flex flex-col relative top-20 justify-center items-center mb-28">
       <div className="grid grid-cols-3 gap-4">
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">

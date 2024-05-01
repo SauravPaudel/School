@@ -124,7 +124,7 @@ const Notice = () => {
     <div className='flex-col relative left-2 top-14 max-h-[400px] '>
           <span className='text-black text-2xl font-bold'>Recent Events</span><br></br>
           </div>
-    <div className="bg-gray-900 py-20 mt-20">
+    <div className="bg-gray-900 py-20 mt-20 mb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {events.map((event, index) => (

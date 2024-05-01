@@ -8,6 +8,7 @@ import Faculty from './Components/Pages/Faculty'
 import Eca from './Components/Pages/Eca'
 import SignUp from './Components/Pages/Signup'
 import Notice from './Components/Pages/Notice';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/Notice' element={<Notice />} />
         <Route path='*' element={<Navigate to='/' />} />
     </Routes>
+    <Footer />
     </div>
     </>
   
