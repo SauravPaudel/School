@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
@@ -76,14 +77,16 @@ const Navbar = () => {
           !toggleMenu ? "h-0" : "h-full"
         }`}
       >
-        <div className="px-8">
+        <div className="px-8 py-6">
           <div className="flex flex-col gap-8 font-bold tracking-wider">
             <a href="#" className="border-l-4 border-gray-600">
-              Our School
+              Home
             </a>
-            <a href="#">Results</a>
-            <a href="#">Fee</a>
-            <a href="#">Class</a>
+            <a href="#">Admission</a>
+            <a href="#">Faculty</a>
+            <a href="#">ECA</a>
+            <a href="#">Notice</a>
+            <a href="#">Facilities</a>
           </div>
         </div>
       </div>
