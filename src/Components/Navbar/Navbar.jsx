@@ -47,11 +47,11 @@ const Navbar = () => {
             </div>
           </div>
           {/* secondary */}
-          <div className={`flex gap-6 ${darkMode ? 'dark' : ''}`}>
+          <div className={`flex gap-6`}>
             <div className="hidden sm:flex items-center gap-10">
               <div className="hidden lg:flex items-center gap-2">
-              <MoonIcon className={`h-6 w-6 ${darkMode ? 'text-black' : 'text-black'}`} onClick={toggleMode} />
-              <SunIcon className={`h-6 w-6 ${darkMode ? 'text-black' : 'text-black'}`} onClick={toggleMode} />
+              <MoonIcon className={`h-6 w-6  'text-black' : 'text-black'}`} onClick={toggleMode} />
+              <SunIcon className={`h-6 w-6  'text-black' : 'text-black'}`} onClick={toggleMode} />
               </div>
               <div>
                 <NavLink to ="/Signup">

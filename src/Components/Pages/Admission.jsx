@@ -1,7 +1,7 @@
 import React from 'react'
 import school2 from '../../assets/school1.jpg'
 
-const About = () => {
+const Admission = () => {
   return (
     <div className="container mx-auto ">
           <div className='w-full h-[650px] flex flex-row pt-20'>
@@ -202,4 +202,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Admission
