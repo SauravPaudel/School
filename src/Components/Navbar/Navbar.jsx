@@ -45,6 +45,7 @@ const Navbar = () => {
             <NavLink to="/Faculty">Faculty</NavLink>
             <NavLink to="/Eca">ECA</NavLink>
             <NavLink to="/Notice">Notice</NavLink>
+            <NavLink to="/About">About</NavLink>
             </div>
           </div>
           {/* secondary */}
@@ -86,6 +87,7 @@ const Navbar = () => {
             <a href="#">Faculty</a>
             <a href="#">ECA</a>
             <a href="#">Notice</a>
+            <a href="#">About</a>
             <a href="#">Facilities</a>
           </div>
         </div>

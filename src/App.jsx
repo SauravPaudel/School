@@ -9,6 +9,7 @@ import Eca from './Components/Pages/Eca'
 import SignUp from './Components/Pages/Signup'
 import Notice from './Components/Pages/Notice';
 import Footer from './Components/Footer/Footer';
+import About from './Components/Pages/About';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Eca' element={<Eca />} />
         <Route path='/Signup' element={<SignUp />} />
         <Route path='/Notice' element={<Notice />} />
+        <Route path='/About' element={<About />} />
         <Route path='*' element={<Navigate to='/' />} />
     </Routes>
     <Footer />
