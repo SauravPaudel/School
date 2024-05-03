@@ -16,14 +16,14 @@ const Admission = () => {
           </div>
       
           <div className='flex relative left-[200px] '>
-          <img className=' h-[500px] rounded-lg py-2' src={school2} alt="" />
+          <img className=' h-[400px] rounded-lg py-2' src={school2} alt="" />
           </div>
         </div>
 
         {/* Section Section  */}
 
 
-        <div className='flex-col relative left-32 top-14 max-h-[400px] '>
+        <div className='flex-col  relative left-32 top-14 max-h-[400px] '>
           <span className='text-black font-bold'>Vacancy</span><br></br>
           <p className='text-black font-bold pt-4 '>Admission Enrollment </p>
           </div>
@@ -138,7 +138,7 @@ const Admission = () => {
     </div>
 
     {/* Process  */}
-    <div className="w-full h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
+    <div className="w-[1350px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
   <h2 className="text-white text-2xl font-bold mb-4">ADMISSION PROCESS</h2>
   <h3 className="text-gray-300 text-lg mb-8">Steps for applying in Antarikshya School</h3>
 

@@ -44,7 +44,7 @@ const About = () => {
        
 
       </div>
-        <p className='text-blue-900 text-xl font-bold  pt-12 mb-4 ml-[150px] ' style={{ maxWidth: '1220px', wordWrap: 'break-word' }}>
+        <p className='text-blue-900 text-xl  pt-12 mb-4 ml-[150px] ' style={{ maxWidth: '1220px', wordWrap: 'break-word' }}>
      
         Welcome to Annapurna Vidhya Mandir School, where excellence in education meets holistic development. Established with a vision to nurture young minds and empower them to become confident, compassionate, and responsible global citizens, Annapurna Vidhya Mandir School has been a beacon of academic excellence and character development for [number] years.
 <span className="pt-4" style={{ display: 'block', width: '50%' }}></span>
@@ -107,16 +107,16 @@ At Annapurna Vidhya Mandir School, we believe in providing a comprehensive educa
 
 {/* our vision */}
 <div className='w-full h-[650px]   flex flex-row pt-20'>
-<div className='flex-col relative top-14 max-h-[400px] '>
+<div className='flex-col ml-[60px] relative top-14 max-h-[400px] '>
       <span className='text-blue-800 font-bold text-4xl'>Our Vision</span>
       <div className="h-[3px] w-[80px] bg-blue-800  ml-[230px] mt-[-18px]"></div>
-      <p className='flex-col text-black text-xl  w-[400px] font-bold pt-12 '>Our vision is to cultivate a vibrant learning community where every student is inspired to reach their fullest potential. We envision a school where creativity, critical thinking, and collaboration are nurtured, empowering our students to become lifelong learners and compassionate leaders in a rapidly changing world.</p>
+      <p className='flex-col text-black text-xl  w-[400px]  pt-12 '>Our vision is to cultivate a vibrant learning community where every student is inspired to reach their fullest potential. We envision a school where creativity, critical thinking, and collaboration are nurtured, empowering our students to become lifelong learners and compassionate leaders in a rapidly changing world.</p>
 
         </div>
 
       
-          <div className='flex relative left-[650px] '>
-          <img className=' h-[500px] rounded-lg py-2' src={Lab1} alt="" />
+          <div className='flex  relative left-[350px] '>
+          <img className=' h-[500px] rounded-lg py-2 ' src={Lab1} alt="" />
           </div>
         </div>
 
@@ -126,14 +126,14 @@ At Annapurna Vidhya Mandir School, we believe in providing a comprehensive educa
        
        <div className='w-full h-[650px] flex flex-row pt-20'>
 
-       <div className='flex-col relative  top-14 max-h-[400px] ml-[-20px] '>
+       <div className='flex-col relative  top-14 max-h-[400px] ml-[60px] '>
           <img className=' h-[500px] rounded-lg py-2' src={Lab2} alt="" />
           </div>
 
-          <div className='flex relative left-[650px] mt-[150px]'>
+          <div className='flex relative left-[350px] mt-[150px]'>
   <span className='text-blue-800 font-bold text-4xl'>Our Mission</span>
   <div className="h-[5px] w-[80px] bg-blue-800  ml-[-330px] mt-4"></div>
-  <p className='flex-col text-black text-xl  w-[400px] font-bold pt-20'>Our mission is to provide a transformative educational experience that prepares students to excel academically, embrace diversity, and contribute positively to their communities and the world.
+  <p className='flex-col text-black text-xl  w-[400px]  pt-20'>Our mission is to provide a transformative educational experience that prepares students to excel academically, embrace diversity, and contribute positively to their communities and the world.
 
 We are committed to fostering a dynamic learning environment where innovation, inquiry, and critical thinking are encouraged.</p>
 </div>

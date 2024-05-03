@@ -32,10 +32,10 @@ const Home = () => {
     setCurrentIndex(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1);
   };
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto  ">
       <h1 className='heading'></h1>
-       <div className="flex flex-col justify-center items-center absolute top-[650px]  ">
-      <div className="mt-4 flex flex-col space-y-7">
+       <div className="flex flex-col justify-center items-center absolute top-[650px]   ">
+      <div className="mt-4 flex flex-col space-y-7 ml-8 ">
         <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
           <FaFacebook className="text-2xl text-black hover:text-blue-500 " />
         </a>
@@ -53,21 +53,21 @@ const Home = () => {
     </div>
     
     
-    <div className="flex flex-col md:flex-row sm:justify-center sm:pt-20 items-center py-10 ">
+    <div className="flex flex-col  mr-4 md:flex-row sm:justify-center sm:pt-20 items-center py-7  ">
       <div className="flex flex-col gap-4 ">
         <p className="text-4xl relative left-20 sm:text-7xl capitalize font-semibold sm:flex gap-1 ">
           Shree
-          <span className="text-red-500 pl-2 capitalize">Annapurna</span>{" "}
+          <span className="text-purple-500  pl-2 capitalize">Annapurna</span>{" "}
           <br />
           <span className="text-purple-500 pl-2 capitalize">Vidhya</span>{" "}
           Mandir <br />{" "}
         </p>
-        <p className='text-1xl relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
-       <img className='w-[1100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
+        <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
+       <img className='w-[1000px] ml-[100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
       </div>
     </div>
 
-      <div className='bg-slate-100 h-screen w-full pt-10'>
+      <div className='bg-slate-100 h-screen w-full pt-10 ml-[-60px]'>
         <div className='text-black absolute'>
           <div className='relative top-16'>
              <span className='inline relative text-2xl font-bold left-[120px] top-20'>Antarikshya <br></br> School</span>
@@ -83,9 +83,9 @@ const Home = () => {
 
         <div className='text-black absolute left-[1000px] '>
         <div className='relative top-20'>
-        <img className='w-[600px] max-sm:w-[500px] rounded-lg py-2' src={school3} alt="" />
+        <img className='w-[550px] ml-[-60px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
         </div>
-        <div className=' relative top-28'>
+        <div className=' relative ml-[-100px] top-28'>
         <span className='inline  text-2xl font-bold'>Antarikshya Education Foundation</span>
         <p className='text-black max-w-[600px] text-justify'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.  lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.</p>
         </div>
@@ -106,14 +106,14 @@ const Home = () => {
           </button>
           </div>
       
-          <div className='flex relative left-[300px] '>
-          <img className=' h-[500px] rounded-lg py-2' src={school3} alt="" />
+          <div className='flex relative left-[300px] pt-[100px] '>
+          <img className=' h-[500px] ml-[-60px] rounded-lg py-2 border border-black' src={school3} alt="" />
           </div>
         </div>
 
           {/* Card */}
 
-        <div className="w-full h-64 bg-[#162545] p-8 mt-20 rounded-2xl flex flex-col justify-center">
+        <div className="w-[1450px] ml-[40px] h-64 bg-[#162545] p-8 mt-20 rounded-2xl flex flex-col justify-center">
   <div className="flex gap-32 justify-center items-center mb-4">
     <div className="flex flex-col items-center hover:text-blue-500 transition duration-300 ml-8">
       <svg className="w-10 h-10 mb-2" fill="white" stroke="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -169,7 +169,7 @@ const Home = () => {
     </div>
 
       {/* Read more  */}
-      <div className="w-full h-[60vh] bg-[#162545] flex">
+      <div className="w-[1450px] ml-[40px]  h-[60vh] bg-[#162545] flex">
       {/* Image */}
       <div className="w-1/2 h-full py-10 px-10">
         <img
@@ -180,7 +180,7 @@ const Home = () => {
       </div>
 
       {/* Text Section */}
-      <div className="w-1/2 h-full flex flex-col justify-center px-8">
+      <div className="w-1/2  h-full flex flex-col justify-center px-8">
         {/* First Text */}
         <p className="text-white text-lg">
           We look forward to introducing you to Antarikshya.
@@ -286,7 +286,7 @@ const Home = () => {
     </div>
 
         {/* Students card  */}
-        <div className="flex justify-center items-center h-[90vh] w-full">
+        <div className="flex justify-center items-center h-[90vh] w-[1450px] ml-[40px]">
       <div className="flex">
         <div className="flex flex-col items-center  transition-all duration-300 hover:scale-105">
           <img src={student} alt="Image 1" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />

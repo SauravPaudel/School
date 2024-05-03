@@ -19,7 +19,7 @@ const Faculty = () => {
           </div>
         </div>
 
-        <div className='flex-col relative left-16 top-20 max-h-[400px] '>
+        <div className='flex-col relative left-16 top-6 max-h-[400px] '>
           <span className='text-black font-bold'>Our Team</span><br></br>
           </div>
         <div className="h-screen flex flex-col justify-center items-center px-14">
@@ -48,7 +48,7 @@ const Faculty = () => {
       </div>
     </div>
 
-    <div className="w-full h-[40vh] bg-[#162545] flex flex-col items-center justify-center">
+    <div className="w-[1450px] ml-[40px] h-[50vh] bg-[#162545] flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold text-white mb-4">FOUNDERS</h1>
       <p className="text-lg text-gray-300 mb-8">
         Antarikshya School was founded by Mr. Ram Shrestha and Ms. Sita Pathak in 1998
@@ -84,12 +84,12 @@ const Faculty = () => {
       </div>
     </div>
 
-    <div className='flex-col relative left-16 top-14 max-h-[400px] '>
-          <span className='text-black font-bold'>Our Leadership Team</span><br></br>
-          <p className='text-black font-bold pt-4 '>Our experts are diligently working to enact change. </p>
+    <div className='flex-col ml-[60px] left-16 pt-[100px] top-14 max-h-[400px] '>
+          <span className='text-black font-bold '>Our Leadership Team</span><br></br>
+          <p className='text-black font-bold pt-8 '>Our experts are diligently working to enact change. </p>
           </div>
 
-          <div className="h-screen w-full flex flex-col relative top-20 justify-center items-center mb-28">
+          <div className="h-screen w-full flex  pt-2  flex-col relative top-20 justify-center items-center mb-28">
       <div className="grid grid-cols-3 gap-4">
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">

@@ -126,7 +126,7 @@ const Notice = () => {
           </div>
       
           <div className='flex relative left-[200px] '>
-          <img className=' h-[500px] rounded-lg py-2' src={school2} alt="" />
+          <img className=' h-[400px] rounded-lg py-2' src={school2} alt="" />
           </div>
         </div>
 
@@ -180,10 +180,10 @@ const Notice = () => {
     </div>
 
 
-    <div className='flex-col relative left-2 top-14 max-h-[400px] '>
+    <div className='flex-col  ml-[60px] relative left-2 top-14 max-h-[400px] '>
           <span className='text-black text-2xl font-bold'>Recent Events</span><br></br>
           </div>
-    <div className="bg-gray-900 py-20 mt-20 mb-20">
+    <div className="w-[1350px] ml-[60px] bg-gray-900 py-20 mt-20 mb-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {events.map((event, index) => (
