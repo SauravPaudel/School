@@ -9,12 +9,12 @@ import student from '../../assets/student.png'
 
 const testimonials = [
   {
-    quote: 'lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem ',
+    quote: 'What sets Annapurna School apart is its holistic approach to education. Beyond the traditional classroom setting, students are encouraged to explore their interests through a wide range of extracurricular activities, including sports, arts, and community service initiatives.  ',
     name: 'Saurav Paudel',
     role: 'Student',
   },
   {
-    quote: 'lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem ',
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
     name: 'Rajesh Nepal',
     role: 'Student',
   },
@@ -70,7 +70,7 @@ const Home = () => {
       <div className='bg-slate-100 h-screen w-full pt-10 ml-[-60px]'>
         <div className='text-black absolute'>
           <div className='relative top-16'>
-             <span className='inline relative text-2xl font-bold left-[120px] top-20'>Annapurna Vidhya Mandir <br></br> School</span>
+             <span className='inline text-blue-900  relative text-2xl font-bold left-[120px] top-20'>Annapurna Vidhya Mandir <br></br> School</span>
         <div className=''>
         <img className='w-[700px] max-sm:w-[500px] relative left-28 top-24 rounded-lg' src={school2} alt="" />
         </div>
@@ -86,8 +86,8 @@ const Home = () => {
         <img className='w-[550px] ml-[-60px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
         </div>
         <div className=' relative ml-[-100px] top-28 left-10'>
-        <span className='inline  text-2xl font-bold '>Annapurna Vidhya Mandir Foundation</span>
-        <p className='text-black max-w-[600px] text-justify'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.  lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.</p>
+        <span className='inline text-blue-900 text-2xl font-bold '>Annapurna Vidhya Mandir Foundation</span>
+        <p className='text-black mt-8  max-w-[600px] text-justify'>The Annapurna School Foundation is a  organization dedicated to providing quality education and support to underserved communities. Through various initiatives, it aims to bridge educational gaps, empower youth, and uplift communities. With a focus on holistic development, the foundation strives to create opportunities for students to thrive academically, socially, and emotionally. Through collaboration with partners and stakeholders, the Annapurna School Foundation works towards building a brighter future for all.</p>
         </div>
         </div>
         <h1 className='heading3'></h1>
@@ -98,8 +98,8 @@ const Home = () => {
         <div className='w-full h-[650px] flex flex-row pt-20'>
           <div className='flex-col relative left-24 top-14 max-h-[400px]'>
           <span className='text-black font-bold'>Our Program</span><br></br>
-          <p className='text-black font-bold pt-16 '>The Antariskhya School Inspire learning with <br></br> limitless possiblities</p>
-          <p className='text-black max-w-[500px] pt-6 '> lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem</p>
+          <p className='text-blue-900 font-bold pt-16 '>The Annapurna School Inspire learning with <br></br> limitless possiblities</p>
+          <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
 
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
@@ -183,17 +183,14 @@ const Home = () => {
       <div className="w-1/2  h-full flex flex-col justify-center px-8">
         {/* First Text */}
         <p className="text-white text-lg">
-          We look forward to introducing you to Antarikshya.
+          We look forward to introducing you to Annapurna.
         </p>
 
         {/* Second Text */}
         <div className="mt-4">
           <h2 className="text-white text-2xl font-bold">Admissions</h2>
           <p className="text-white mt-2">
-            Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-            Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+          The Admission Introduction section for Annapurna School welcomes prospective students and families to explore the vibrant educational community. Here, visitors can learn about the school's mission, values, and academic offerings. Through engaging multimedia content and personal testimonials, the Admission Introduction section provides insight into the unique learning environment and highlights the school's commitment to nurturing each student's potential. 
           </p>
         </div>
 
@@ -217,10 +214,7 @@ const Home = () => {
           <div className="p-6">
             <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
             <p className="text-gray-700 mb-4 ">
-              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
-              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+            At Annapurna School, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
             </p>
             <a
               href="#"
@@ -255,10 +249,7 @@ const Home = () => {
           <div className="p-6">
             <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
             <p className="text-gray-700 mb-4">
-              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
-              Lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem.lorem
-              Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem
+            As the Principal of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
             </p>
             <a
               href="#"
@@ -292,8 +283,7 @@ const Home = () => {
           <img src={student} alt="Image 1" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold mb-2">Student</h2>
           <p className="text-center mb-4 w-[700px]">
-            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
-            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+          An online version of the student handbook outlining school policies, code of conduct, and procedures to ensure a safe and respectful learning environment.
           </p>
           <button className="bg-[#162545] hover:bg-blue-700 rounded-2xl text-white font-bold py-2 px-4 transition-colors duration-300">
             Click Here
@@ -306,8 +296,7 @@ const Home = () => {
           <img src={student} alt="Image 2" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold mb-2">Library</h2>
           <p className="text-center mb-4 w-[700px]">
-            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
-            Lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith lorem. Lorem Ipsum lorem Ipsum Akrith lorem Akriti lorem Ipsum Akrith.
+          The Library Section at Annapurna School is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
           </p>
           <button className="bg-[#162545] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl transition-colors duration-300">
             Click Here
