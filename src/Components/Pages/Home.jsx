@@ -70,11 +70,11 @@ const Home = () => {
       <div className='bg-slate-100 h-screen w-full pt-10 ml-[-60px]'>
         <div className='text-black absolute'>
           <div className='relative top-16'>
-             <span className='inline relative text-2xl font-bold left-[120px] top-20'>Antarikshya <br></br> School</span>
+             <span className='inline relative text-2xl font-bold left-[120px] top-20'>Annapurna Vidhya Mandir <br></br> School</span>
         <div className=''>
         <img className='w-[700px] max-sm:w-[500px] relative left-28 top-24 rounded-lg' src={school2} alt="" />
         </div>
-        <p className='text-black max-w-[700px] relative left-28 top-28'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem</p>
+        <p className='text-black max-w-[700px] relative left-28 top-28'>Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
         </div>
         <h1 className='heading4'></h1>
       
@@ -85,8 +85,8 @@ const Home = () => {
         <div className='relative top-20'>
         <img className='w-[550px] ml-[-60px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
         </div>
-        <div className=' relative ml-[-100px] top-28'>
-        <span className='inline  text-2xl font-bold'>Antarikshya Education Foundation</span>
+        <div className=' relative ml-[-100px] top-28 left-10'>
+        <span className='inline  text-2xl font-bold '>Annapurna Vidhya Mandir Foundation</span>
         <p className='text-black max-w-[600px] text-justify'>lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem . lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.  lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem. lorem Epsum lorem Epsum Akrith lorem Akriti lorem Epsum Akrith lorem. “lorem Epsum lorem Epsum Akrith “lorem Akriti lorem Epsum Akrith lorem.</p>
         </div>
         </div>
@@ -106,7 +106,7 @@ const Home = () => {
           </button>
           </div>
       
-          <div className='flex relative left-[300px] pt-[100px] '>
+          <div className='flex relative bottom-20 bo left-[300px] pt-[100px] '>
           <img className=' h-[500px] ml-[-60px] rounded-lg py-2 border border-black' src={school3} alt="" />
           </div>
         </div>
