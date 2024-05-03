@@ -79,13 +79,13 @@ const Home = () => {
         <h1 className='heading4'></h1>
       
         </div>
-        <span className='inline relative float-right top-[820px] right-[525px] text-black font-bold'>Read more</span>
+        <span className='inline relative float-right top-[820px] right-[525px] gap-x-2  text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white font-bold'>Read more</span>
 
         <div className='text-black absolute left-[1000px] '>
         <div className='relative top-20'>
-        <img className='w-[550px] ml-[-60px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
+        <img className='w-[550px] ml-[-120px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
         </div>
-        <div className=' relative ml-[-100px] top-28 left-10'>
+        <div className=' relative ml-[-160px] top-28 left-10'>
         <span className='inline text-blue-900 text-2xl font-bold '>Annapurna Vidhya Mandir Foundation</span>
         <p className='text-black mt-8  max-w-[600px] text-justify'>The Annapurna School Foundation is a  organization dedicated to providing quality education and support to underserved communities. Through various initiatives, it aims to bridge educational gaps, empower youth, and uplift communities. With a focus on holistic development, the foundation strives to create opportunities for students to thrive academically, socially, and emotionally. Through collaboration with partners and stakeholders, the Annapurna School Foundation works towards building a brighter future for all.</p>
         </div>
@@ -101,12 +101,12 @@ const Home = () => {
           <p className='text-blue-900 font-bold pt-16 '>The Annapurna School Inspire learning with <br></br> limitless possiblities</p>
           <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
 
-          <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
+          <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
           </button>
           </div>
       
-          <div className='flex relative bottom-20 bo left-[300px] pt-[100px] '>
+          <div className='flex relative bottom-20 bo left-[300px] pt-[180px] '>
           <img className=' h-[500px] ml-[-60px] rounded-lg py-2 border border-black' src={school3} alt="" />
           </div>
         </div>
@@ -211,14 +211,14 @@ const Home = () => {
             alt="Card 1 Image"
             className="w-full h-[300px] object-cover rounded-t-lg"
           />
-          <div className="p-6">
-            <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
-            <p className="text-gray-700 mb-4 ">
+          <div className="pt-[4px]">
+            <h3 className="text-xl  ml-2 font-bold mb-2 text-black">Message from Principal</h3>
+            <p className="text-gray-700  ml-2 mb-4 ">
             At Annapurna School, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
             </p>
             <a
               href="#"
-              className="text-blue-500 flex items-center hover:text-blue-700 transition duration-300 pt-4"
+              className="text-blue-500 flex items-center ml-2 hover:text-blue-700 transition duration-300 pt-4"
             >
               View Detail Message
               <svg
