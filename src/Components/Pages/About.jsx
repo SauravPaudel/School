@@ -37,8 +37,8 @@ const About = () => {
 
     
     <div className='container mx-auto pt-2'>
-      <div className='relative h-[200px] w-full bg-blue-950'>
-      <div className='absolute flex flex-col items-center justify-center text-7xl text-white font-bold ml-[350px] mt-[50px]'>
+      <div className='relative h-[200px] w-full text-black'>
+      <div className='absolute flex flex-col items-center justify-center text-7xl text-black font-bold ml-[350px] mt-[50px]'>
       Annapurna Vidhya  Mandir
         </div>
        
