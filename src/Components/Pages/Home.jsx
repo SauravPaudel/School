@@ -57,7 +57,7 @@ const Home = () => {
       <div className="flex flex-col gap-4 ">
         <p className="text-4xl relative left-20 sm:text-7xl capitalize font-semibold sm:flex gap-1 ">
           Shree
-          <span className="text-red pl-2 capitalize">Annapurna</span>{" "}
+          <span className="text-red-500 pl-2 capitalize">Annapurna</span>{" "}
           <br />
           <span className="text-purple-500 pl-2 capitalize">Vidhya</span>{" "}
           Mandir <br />{" "}
