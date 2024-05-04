@@ -72,7 +72,7 @@ const Home = () => {
           <div className='relative top-16'>
              <span className='inline text-blue-900  relative text-2xl font-bold left-[120px] top-20'>Annapurna Vidhya Mandir <br></br> School</span>
         <div className=''>
-        <img className='w-[700px] max-sm:w-[500px] relative left-28 top-24 rounded-lg' src={school2} alt="" />
+        <img className='w-[600px] h-[400px] max-sm:w-[500px] relative left-28 top-24 rounded-lg' src={school2} alt="" />
         </div>
         <p className='text-black max-w-[700px] relative left-28 top-28'>Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
         </div>
