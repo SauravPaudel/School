@@ -84,12 +84,12 @@ const Faculty = () => {
       </div>
     </div>
 
-    <div className='flex-col ml-[60px] left-16 pt-[100px] top-14 max-h-[400px] '>
+    <div className='flex-col ml-[70px] left-24 pt-[100px] top-14 max-h-[400px] '>
           <span className='text-black font-bold '>Our Leadership Team</span><br></br>
-          <p className='text-black font-bold pt-8 '>Our experts are diligently working to enact change. </p>
+          <p className='text-black font-bold pt-4 '>Our experts are diligently working to enact change. </p>
           </div>
 
-          <div className="h-screen w-full flex  pt-2  flex-col relative top-20 justify-center items-center mb-28">
+          <div className="h-screen w-full flex  pt-10  flex-col relative top-20 justify-center items-center mb-28">
       <div className="grid grid-cols-3 gap-4">
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">
