@@ -1,6 +1,6 @@
 import React from 'react'
-import school2 from '../../assets/school1.jpg'
-
+// import school2 from '../../assets/school1.jpg'
+import schoolabout from '../../assets/schoolabout.jpg'
 const Admission = () => {
   return (
     <div className="container mx-auto overflow-hidden ">
@@ -16,7 +16,7 @@ const Admission = () => {
           </div>
       
           <div className='flex relative top-10 left-[200px] '>
-          <img className=' h-[400px] rounded-lg py-2' src={school2} alt="" />
+          <img className=' h-[400px] rounded-lg py-2' src={schoolabout} alt="" />
           </div>
         </div>
 

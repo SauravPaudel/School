@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
-import school from '../../assets/school.png'
-import school2 from '../../assets/school1.jpg'
+import schoolprofile from '../../assets/schoolprofile.jpg'
+import school2 from '../../assets/teachers.jpg'
 import school3 from '../../assets/school3.jpg'
 import student from '../../assets/student.png'
 
@@ -63,7 +63,7 @@ const Home = () => {
           Mandir <br />{" "}
         </p>
         <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
-       <img className='w-[1000px] ml-[100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
+       <img className='w-[1000px] max-h-[600px] ml-[100px] max-sm:w-[500px] relative left-5' src={schoolprofile} alt="" />
       </div>
     </div>
 
