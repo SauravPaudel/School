@@ -3,7 +3,7 @@ import school2 from '../../assets/school1.jpg'
 
 const Admission = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto overflow-hidden ">
           <div className='w-full h-[650px] flex flex-row pt-20'>
           <div className='flex-col relative left-32 top-14 max-h-[400px]'>
           <span className='text-black font-bold'>Admission</span><br></br>
