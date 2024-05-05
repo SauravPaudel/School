@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
 import schoolprofile from '../../assets/schoolprofile.jpg'
 import school2 from '../../assets/teachers.jpg'
-import school3 from '../../assets/school3.jpg'
+import school3 from '../../assets/program3.jpg'
 import student from '../../assets/student.png'
-
+import principal from '../../assets/principal.jpg'
 const testimonials = [
   {
     quote: 'What sets Annapurna School apart is its holistic approach to education. Beyond the traditional classroom setting, students are encouraged to explore their interests through a wide range of extracurricular activities, including sports, arts, and community service initiatives.  ',
@@ -207,7 +207,7 @@ const Home = () => {
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg ">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={principal}
             alt="Card 1 Image"
             className="w-full h-[300px] object-cover rounded-t-lg"
           />
@@ -242,7 +242,7 @@ const Home = () => {
         {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={principal}
             alt="Card 2 Image"
             className="w-full h-[300px] object-cover rounded-t-lg"
           />
