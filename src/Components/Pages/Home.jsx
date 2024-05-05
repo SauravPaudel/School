@@ -7,6 +7,9 @@ import school2 from '../../assets/teachers.jpg'
 import school3 from '../../assets/program3.jpg'
 import student from '../../assets/student.png'
 import principal from '../../assets/principal.jpg'
+import student1 from '../../assets/student1.jpg'
+
+
 const testimonials = [
   {
     quote: 'What sets Annapurna School apart is its holistic approach to education. Beyond the traditional classroom setting, students are encouraged to explore their interests through a wide range of extracurricular activities, including sports, arts, and community service initiatives.  ',
@@ -280,7 +283,7 @@ const Home = () => {
         <div className="flex justify-center items-center h-[90vh] w-[1450px] ml-[40px]">
       <div className="flex">
         <div className="flex flex-col items-center  transition-all duration-300 hover:scale-105">
-          <img src={student} alt="Image 1" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
+          <img src={student1} alt="Image 1" className="w-[300px] h-[320px] object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold mb-2">Student</h2>
           <p className="text-center mb-4 w-[700px]">
           An online version of the student handbook outlining school policies, code of conduct, and procedures to ensure a safe and respectful learning environment.
