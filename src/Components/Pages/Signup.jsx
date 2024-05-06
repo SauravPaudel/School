@@ -6,8 +6,8 @@ const SignUp = () => {
         <div className="bg-gray-100 py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Antarikshya School</h2>
-          <p className="text-gray-600 mb-4">New Baneshwor, kathmandu</p>
+          <h2 className="text-2xl font-semibold mb-4">Annapurna School</h2>
+          <p className="text-gray-600 mb-4">Kapilvastu,Kopawa</p>
           <div className="bg-white shadow-md rounded-lg overflow-hidden">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8152529835517!2d85.31909031430198!3d27.698599982828823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a9598a1d2b%3A0xa9c8b8e7d2e046d8!2sAntarikshya%20School!5e0!3m2!1sen!2snp!4v1683102678190!5m2!1sen!2snp"

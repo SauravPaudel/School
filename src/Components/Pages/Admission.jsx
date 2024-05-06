@@ -94,11 +94,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-I must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-              >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -113,7 +110,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                   />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
                   </SwiperSlide>
@@ -133,11 +130,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-II must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -152,7 +146,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -171,11 +165,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-III must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -190,7 +181,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -212,11 +203,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-IV must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -231,7 +219,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -250,11 +238,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-V must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -269,7 +254,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -287,11 +272,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-VI must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -306,7 +288,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -327,11 +309,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-VII must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -346,7 +325,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -365,11 +344,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-VIII must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -384,7 +360,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -401,11 +377,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-IX must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -420,7 +393,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>
@@ -438,11 +411,8 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-X must complete and submit the form.
             </p>
-            <a
-              href="#"
-              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
-            >
-              Submit your form here
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+  Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-4 w-4 ml-2"
@@ -457,7 +427,7 @@ const Admission = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
         </SwiperSlide>

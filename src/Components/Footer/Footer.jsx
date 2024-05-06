@@ -33,22 +33,33 @@ const Footer = () => {
         <h2 className="text-white text-2xl font-bold mb-4">Follow</h2>
         <nav className="text-gray-400">
           <ul>
-            <li className="mb-2 flex items-center">
-              <i className="fab fa-facebook mr-2"></i>
-              Facebook
+           <li className="mb-2 flex items-center">
+       <i className="fab fa-facebook mr-2"></i>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+           Facebook
+            </a>
             </li>
+
             <li className="mb-2 flex items-center">
-              <i className="fab fa-instagram mr-2"></i>
-              Instagram
-            </li>
-            <li className="mb-2 flex items-center">
-              <i className="fab fa-twitter mr-2"></i>
-              Twitter
-            </li>
-            <li className="mb-2 flex items-center">
-              <i className="fab fa-youtube mr-2"></i>
-              Youtube
-            </li>
+  <i className="fab fa-instagram mr-2"></i>
+  <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+    Instagram
+  </a>
+</li>
+
+<li className="mb-2 flex items-center">
+  <i className="fab fa-twitter mr-2"></i>
+  <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
+    Twitter
+  </a>
+</li>
+<li className="mb-2 flex items-center">
+  <i className="fab fa-youtube mr-2"></i>
+  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+  Youtube
+  </a>
+</li>
+
           </ul>
         </nav>
       </div>

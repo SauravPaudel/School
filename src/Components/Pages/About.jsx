@@ -1,12 +1,11 @@
 // this is the page for about us 
 
-import bus from '../../assets/bus.png'
-import Library1 from '../../assets/Library1.png'
-import Library2 from '../../assets/Library2.png'
-import canteen from '../../assets/canteen.png'
-import Lab1 from "../../assets/Lab1.png"
-import Lab2 from "../../assets/Lab2.png"
-
+import bus from '../../assets/style.jpg'
+import Library1 from '../../assets/program2.jpg'
+import Library2 from '../../assets/students.jpg'
+import canteen from '../../assets/teachers.jpg'
+import Lab1 from "../../assets/eca4.jpg"
+import Lab2 from "../../assets/class.jpg"
 import React, { useEffect, useState } from 'react';
 // Import Swiper React components
 
