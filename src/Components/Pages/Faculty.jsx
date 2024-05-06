@@ -152,36 +152,36 @@ const Faculty = () => {
       </div>
 
       {/* Second Row */}
-      <div className="grid grid-cols-3 gap-4 mt-2">
+      <div className="grid grid-cols-3 gap-4  mt-2   ">
         <div className="flex w-[500px] flex-col items-center">
           <img
             src={prakash}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md  object-cover "
           />
-          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
+          <div className="mt-4   w-[350px] h-[150px] text-center rounded-md  border-2 border-gray-300 p-2">
             <p>Mr. Prakash Bhusal</p>
             <p>Co-ordinator</p>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex w-[500px] flex-col items-center">
           <img
             src={ashok}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
-          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
+          <div className="mt-4 w-[350px] h-[150px] text-center rounded-md border-2 border-gray-300 p-2">
             <p>Mr. Ashok Belbase</p>
             <p>Math Teacher</p>
           </div>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex w-[500px] flex-col items-center  ">
           <img
             src={gyatri}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
-          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
+          <div className="mt-4 w-[350px]   text-center rounded-md border-2 border-gray-300 p-2">
             <p>Ms. Gyatri </p>
             <p>Teacher</p>
           </div>

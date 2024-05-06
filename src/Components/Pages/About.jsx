@@ -45,7 +45,7 @@ const About = () => {
       </div>
         <p className='text-blue-900 text-xl  pt-12 mb-4 ml-[150px] ' style={{ maxWidth: '1220px', wordWrap: 'break-word' }}>
      
-        Welcome to Annapurna Vidhya Mandir School, where excellence in education meets holistic development. Established with a vision to nurture young minds and empower them to become confident, compassionate, and responsible global citizens, Annapurna Vidhya Mandir School has been a beacon of academic excellence and character development for [number] years.
+        Welcome to Annapurna Vidhya Mandir School, where excellence in education meets holistic development. Established with a vision to nurture young minds and empower them to become confident, compassionate, and responsible global citizens, Annapurna Vidhya Mandir School has been a beacon of academic excellence and character development for 25 years.
 <span className="pt-4" style={{ display: 'block', width: '50%' }}></span>
 At Annapurna Vidhya Mandir School, we believe in providing a comprehensive educational experience that goes beyond textbooks and classrooms. Our dedicated team of educators is committed to fostering a nurturing learning environment where students feel inspired to explore, innovate, and excel in all aspects of their academic journey.
 </p>

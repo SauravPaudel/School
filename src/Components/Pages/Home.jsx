@@ -93,7 +93,7 @@ const Home = () => {
       </div>
     </div>
 
-      <div className='bg-slate-100 h-screen w-full pt-10 ml-[-60px]'>
+      <div className='bg-slate-100 h-screen  w-full pt-10 ml-[-60px]'>
         <div className='text-black absolute'>
           <div className='relative top-16'>
              <span className='inline text-blue-900  relative text-2xl font-bold left-[120px] top-20'>Annapurna Vidhya Mandir <br></br> School</span>
