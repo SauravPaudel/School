@@ -60,65 +60,65 @@ const Notice = () => {
       image: class2,
     },
   ];
-  const [currentDate, setCurrentDate] = useState(new Date());
+  // const [currentDate, setCurrentDate] = useState(new Date());
 
-  const months = [
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December',
-  ];
+  // const months = [
+  //   'January',
+  //   'February',
+  //   'March',
+  //   'April',
+  //   'May',
+  //   'June',
+  //   'July',
+  //   'August',
+  //   'September',
+  //   'October',
+  //   'November',
+  //   'December',
+  // ];
 
-  const daysShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  // const daysShort = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
-  const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1).getDay();
-  const lastDateOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
+  // const firstDayOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth(), 1).getDay();
+  // const lastDateOfMonth = new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 0).getDate();
 
-  const prevMonth = () => {
-    setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, 1));
-  };
+  // const prevMonth = () => {
+  //   setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() - 1, 1));
+  // };
 
-  const nextMonth = () => {
-    setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 1));
-  };
+  // const nextMonth = () => {
+  //   setCurrentDate(new Date(currentDate.getFullYear(), currentDate.getMonth() + 1, 1));
+  // };
 
-  const renderCalendarDays = () => {
-    const calendarDays = [];
-    let day = 1;
+  // const renderCalendarDays = () => {
+  //   const calendarDays = [];
+  //   let day = 1;
 
-    for (let i = 0; i < 6; i++) {
-      const week = [];
-      for (let j = 0; j < 7; j++) {
-        if (i === 0 && j < firstDayOfMonth) {
-          week.push(<div key={`empty-${j}`} className="text-gray-400 py-2">&nbsp;</div>);
-        } else if (day > lastDateOfMonth) {
-          week.push(<div key={`empty-${j}`} className="text-gray-400 py-2">&nbsp;</div>);
-        } else {
-          week.push(
-            <div key={`day-${day}`} className="text-center py-2">
-              {day}
-            </div>
-          );
-          day++;
-        }
-      }
-      calendarDays.push(
-        <div key={`week-${i}`} className="grid grid-cols-7 gap-1">
-          {week}
-        </div>
-      );
-    }
+  //   for (let i = 0; i < 6; i++) {
+  //     const week = [];
+  //     for (let j = 0; j < 7; j++) {
+  //       if (i === 0 && j < firstDayOfMonth) {
+  //         week.push(<div key={`empty-${j}`} className="text-gray-400 py-2">&nbsp;</div>);
+  //       } else if (day > lastDateOfMonth) {
+  //         week.push(<div key={`empty-${j}`} className="text-gray-400 py-2">&nbsp;</div>);
+  //       } else {
+  //         week.push(
+  //           <div key={`day-${day}`} className="text-center py-2">
+  //             {day}
+  //           </div>
+  //         );
+  //         day++;
+  //       }
+  //     }
+  //     calendarDays.push(
+  //       <div key={`week-${i}`} className="grid grid-cols-7 gap-1">
+  //         {week}
+  //       </div>
+  //     );
+  //   }
 
-    return calendarDays;
-  };
+  //   return calendarDays;
+  // };
   return (
     <div className='mx-auto overflow-hidden container'>
         <div className='w-full h-[650px] flex flex-row pt-20'>
@@ -211,7 +211,7 @@ const Notice = () => {
       </div>
     </div>
 
-    <div className="flex justify-center items-center h-screen bg-gray-100">
+    {/* <div className="flex justify-center items-center h-screen bg-gray-100">
       <div className="bg-white rounded-lg shadow-md p-6">
         <div className="flex justify-between items-center mb-4">
           <button
@@ -239,7 +239,7 @@ const Notice = () => {
         </div>
         {renderCalendarDays()}
       </div>
-    </div>
+    </div> */}
 
     </div>
   )
