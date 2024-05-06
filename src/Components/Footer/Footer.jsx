@@ -100,7 +100,7 @@ About Us
       </div>
      
     </div>
-    <p className=' text-white  mt-8 pt-12 h-8 w-auto flex items-center ml-[400px] '>
+    <p className=' text-white  mt-8 pt-12 h-8 w-auto flex items-center ml-[450px] '>
           Copyright ©2024 All rights reserved | This Website is made with <i className='fa fa-heart'></i> by ANTARIKSHYA
         </p>
   </footer>
