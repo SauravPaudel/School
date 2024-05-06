@@ -112,7 +112,7 @@ const Notice = () => {
     return calendarDays;
   };
   return (
-    <div className='mx-auto container'>
+    <div className='mx-auto overflow-hidden container'>
         <div className='w-full h-[650px] flex flex-row pt-20'>
           <div className='flex-col relative left-32 top-14 max-h-[400px]'>
           <span className='text-black font-bold'>Notice , Publication And Calendar</span><br></br>
