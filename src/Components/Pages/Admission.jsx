@@ -446,7 +446,7 @@ const Admission = () => {
     {/* Process  */}
     <div className="w-[1350px] mt-[80px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
   <h2 className="text-white text-2xl font-bold mb-4">ADMISSION PROCESS</h2>
-  <h3 className="text-gray-300 text-lg mb-8">Steps for applying in Antarikshya School</h3>
+  <h3 className="text-gray-300 text-lg mb-8">Steps for applying in Annapurna Vidhya Mandir</h3>
 
   <div className="flex justify-center items-center gap-28 mb-4">
     <div className="flex flex-col items-center group">
