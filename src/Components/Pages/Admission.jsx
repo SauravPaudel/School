@@ -61,7 +61,7 @@ const Admission = () => {
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={}
+            src="https://via.placeholder.com/600x400"
             alt="Card 1 Image"
             className="w-full h-60 object-cover rounded-t-lg"
             />
