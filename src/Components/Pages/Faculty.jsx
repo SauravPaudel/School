@@ -23,11 +23,11 @@ const routeTo = () => {
 
 const Faculty = () => {
   return (
-   <div className='mx-auto container overflow-hidden '>
-    <div className='w-full h-[650px] flex flex-row pt-20'>
-          <div className='flex-col relative left-24 top-14 max-h-[400px]'>
+   <div className='mx-auto mt-[-10px] container overflow-hidden '>
+    <div className='w-full h-[650px] flex flex-row pt-10'>
+          <div className='flex-col relative left-24 top-10 max-h-[400px]'>
           <span className='text-black font-bold'>Our Community</span><br></br>
-          <p className='text-black max-w-[500px] pt-4 '> The faculty at Antarikshya strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
+          <p className='text-black max-w-[500px] pt-2 '> The faculty at Antarikshya strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
 
 
 
@@ -43,10 +43,10 @@ const Faculty = () => {
           </div>
         </div>
 
-        <div className='flex-col relative left-16 top-6 max-h-[400px] '>
+        <div className='flex-col relative left-[100px] top-[-125px]  max-h-[400px] '>
           <span className='text-black font-bold'>Our Team</span><br></br>
           </div>
-        <div className="h-screen flex flex-col justify-center items-center px-14">
+        <div className="h-screen flex flex-col mt-[-165px] justify-center items-center px-14">
       <div className="w-[800px]  h-[400px] flex justify-center mb-8">
         <img
            src={teachers}
@@ -54,7 +54,7 @@ const Faculty = () => {
           className="w-full "
         />
       </div>
-      <div className="w-full">
+      <div className="w-full mt-[-20px]">
         <p className="text-lg text-justify">
           Our school team members are the driving force behind our collective
           success, working collaboratively to create a positive and enriching
@@ -72,7 +72,7 @@ const Faculty = () => {
       </div>
     </div>
 
-    <div className="w-[1450px] ml-[40px] h-[50vh] bg-[#162545] flex flex-col items-center justify-center">
+    <div className="w-[1450px] ml-[40px] mt-[-70px] h-[50vh] bg-[#162545] flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold text-white mb-4">FOUNDERS</h1>
       <p className="text-lg text-gray-300 mb-8">
         Annapurna Vidhay Mandir School was founded by Mr. Dunika Bhusal and Mr. Madan Malla in 2056
@@ -86,7 +86,7 @@ const Faculty = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="mt-4 text-center border border-gray-500 px-10 py-1 relative right-10 inline-block rounded-md">
+          <div className="mt-2 text-center border border-gray-500 px-10 py-1 relative right-10 inline-block rounded-md">
             <p className="text-white font-semibold">Mr. Dunika Bhusal</p>
               <p className="text-gray-300">Chairman</p>
             
@@ -100,7 +100,7 @@ const Faculty = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="mt-4 text-center border relative right-8  border-gray-500 px-10 py-1 inline-block rounded-md">
+          <div className="mt-2 text-center border relative right-8  border-gray-500 px-10 py-1 inline-block rounded-md">
             <p className="text-white font-semibold">Ms. Madan Malla</p>
               <p className="text-gray-300">Principle</p>
           </div>
@@ -108,12 +108,12 @@ const Faculty = () => {
       </div>
     </div>
 
-    <div className='flex-col ml-[70px] left-24 pt-[100px] top-14 max-h-[400px] '>
+    <div className='flex-col ml-[70px] left-24 pt-[30px] top-14 max-h-[400px] '>
           <span className='text-black font-bold '>Our Leadership Team</span><br></br>
-          <p className='text-black font-bold pt-4 '>Our experts are diligently working to enact change. </p>
+          <p className='text-black font-bold pt-2 '>Our experts are diligently working to enact change. </p>
           </div>
 
-          <div className="h-screen w-full flex  pt-10  flex-col relative top-20 justify-center items-center mb-28">
+          <div className="h-screen w-full flex  pt-2  flex-col relative top-20 justify-center items-center mb-28">
       <div className="grid grid-cols-3 gap-4">
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">
@@ -152,7 +152,7 @@ const Faculty = () => {
       </div>
 
       {/* Second Row */}
-      <div className="grid grid-cols-3 gap-4 mt-8">
+      <div className="grid grid-cols-3 gap-4 mt-2">
         <div className="flex w-[500px] flex-col items-center">
           <img
             src={prakash}
