@@ -248,7 +248,7 @@ const Home = () => {
             <p className="text-gray-700  ml-2 mb-4 ">
             At Annapurna School, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
             </p>
-            <a
+            {/* <a
               href="#"
               className="text-blue-500 flex items-center ml-2 hover:text-blue-700 transition duration-300 pt-4"
             >
@@ -267,7 +267,7 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
 
@@ -283,7 +283,7 @@ const Home = () => {
             <p className="text-gray-700 mb-4">
             As the Chairman of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
             </p>
-            <a
+            {/* <a
               href="#"
               className="text-blue-500 flex items-center hover:text-blue-700 transition duration-300"
             >
@@ -302,7 +302,7 @@ const Home = () => {
                   d="M9 5l7 7-7 7"
                 />
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
