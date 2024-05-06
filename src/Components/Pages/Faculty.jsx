@@ -8,6 +8,17 @@ import hari from '../../assets/hari.jpeg'
 import kapil from '../../assets/Kapil.jpeg'
 import gyatri from '../../assets/Gyatri.jpeg'
 import chairman from '../../assets/chairman.jpg'
+import {Link} from 'react-router-dom';
+
+
+
+const routeTo = () => {
+  window.scrollTo({
+    top:0,
+
+  })
+}
+
 
 const Faculty = () => {
   return (
@@ -17,9 +28,13 @@ const Faculty = () => {
           <span className='text-black font-bold'>Our Community</span><br></br>
           <p className='text-black max-w-[500px] pt-4 '> The faculty at Antarikshya strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
 
+
+
+          <Link onClick={routeTo} to="/About">
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
           </button>
+          </Link>
           </div>
       
           <div className='flex relative left-[300px] '>

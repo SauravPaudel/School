@@ -2,6 +2,7 @@
 // import school2 from '../../assets/school1.jpg'
 import schoolabout from '../../assets/schoolabout.jpg'
 import React, { useEffect, useState } from 'react';
+import { Link} from 'react-router-dom';
 // Import Swiper React components
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -20,6 +21,16 @@ import students from '../../assets/students.jpg'
 
 
 
+const routeTo = () => {
+  window.scrollTo({
+    top:0,
+
+  })
+}
+
+
+
+
 const Admission = () => {
   return (
     <div className="container mx-auto overflow-hidden ">
@@ -29,9 +40,12 @@ const Admission = () => {
           <p className='text-black font-bold pt-4 '>Welcome to Annapurna  School Admission</p>
           <p className='text-black w-[500px] pt-6 '> At Annapurna Vidhya Mandir School, the admission process is a seamless and eagerly anticipated event that occurs annually in the month of Baishak. Welcoming students from Nursery to Grade Nine, the school opens its doors to aspiring learners seeking a quality education. Parents and guardians are invited to submit their applications during this period, ensuring a fair and transparent selection process. With a focus on inclusivity and diversity, the school strives to accommodate students from various backgrounds, fostering a rich learning community.</p>
 
+
+          <Link onClick={routeTo} to="/Home">
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative top-10">
            Read More
           </button>
+             </Link>
           </div>
       
           <div className='flex relative top-10 left-[200px] '>

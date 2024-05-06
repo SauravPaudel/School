@@ -8,6 +8,9 @@ import teachers from '../../assets/teachers.jpg'
 import style2 from '../../assets/style2.jpg'
 import eca from '../../assets/eca.jpg'
 import class2 from '../../assets/class2.jpg'
+import {Link} from 'react-router-dom';
+
+
 
 const Notice = () => {
   const magazineIssues = [
@@ -60,6 +63,13 @@ const Notice = () => {
       image: class2,
     },
   ];
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+  
+    })
+  }
+  
   // const [currentDate, setCurrentDate] = useState(new Date());
 
   // const months = [
@@ -128,9 +138,11 @@ const Notice = () => {
           <p className='text-black w-[500px] pt-6 '>Each occasion at Antarikshya School is marked by happiness and the commencement of fresh opportunities for learning. Our school's notice board is like a big billboard where we put up all the important stuff. It tells everyone about events, school schedules, fun activities, and even the cool things students achieve. Teachers make sure to keep it updated so everyone, including students, teachers, and parents, knows what's happening in our school. 
           It's kind of like our school's big news center, making sure everyone feels connected.</p>
 
+             <Link onClick={routeTo} to="/Home">
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative top-10">
           View Newsletters
           </button>
+             </Link>
           </div>
       
           <div className='flex relative left-[200px] '>

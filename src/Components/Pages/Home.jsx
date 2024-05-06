@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
-<<<<<<< HEAD
+
 
 import { Link} from 'react-router-dom';
-import { useEffect } from 'react';
-=======
 
->>>>>>> 06cb77fc54bc09f28a25a10d04681a227d1e47eb
+
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
@@ -128,10 +126,13 @@ const Home = () => {
           <span className='text-black font-bold'>Our Program</span><br></br>
           <p className='text-blue-900 font-bold pt-16 '>The Annapurna School Inspire learning with <br></br> limitless possiblities</p>
           <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
+           
 
+           <Link onClick={routeTo} to="/About">
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
           </button>
+           </Link>
           </div>
       
           <div className='flex relative bottom-20 bo left-[300px] pt-[180px] '>
@@ -223,9 +224,11 @@ const Home = () => {
         </div>
 
         {/* Read More Button */}
+        <Link onClick={routeTo} to="/Admission">
         <button className="mt-8 w-32 bg-white text-[#162545] py-2 px-4 rounded-md pt-4">
           Learn More
         </button>
+        </Link>
       </div>
     </div>
 
@@ -277,7 +280,7 @@ const Home = () => {
           <div className="p-6">
             <h3 className="text-xl font-bold mb-2 text-black">Message from Chairman</h3>
             <p className="text-gray-700 mb-4">
-            As the Principal of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
+            As the Chairman of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
             </p>
             <a
               href="#"
