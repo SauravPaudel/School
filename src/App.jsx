@@ -10,10 +10,15 @@ import SignUp from './Components/Pages/Signup'
 import Notice from './Components/Pages/Notice';
 import Footer from './Components/Footer/Footer';
 import About from './Components/Pages/About';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import Popup from './Components/Pages/Popup';
+AOS.init();
 
 function App() {
   return (
     <>
+    < Popup / >
      <div className='w-full h-100vh overflow-hidde'>
       <Navbar/>
     <Routes>
@@ -29,7 +34,6 @@ function App() {
     <Footer />
     </div>
     </>
-  
   );
 }
 
