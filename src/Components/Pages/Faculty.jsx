@@ -4,7 +4,7 @@ import teachers from '../../assets/teachers.jpg'
 import schoolprofile from '../../assets/schoolprofile.jpg'
 const Faculty = () => {
   return (
-   <div className='mx-auto container '>
+   <div className='mx-auto container overflow-hidden '>
     <div className='w-full h-[650px] flex flex-row pt-20'>
           <div className='flex-col relative left-24 top-14 max-h-[400px]'>
           <span className='text-black font-bold'>Our Community</span><br></br>
