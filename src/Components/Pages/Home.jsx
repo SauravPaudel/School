@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import { Link } from 'react-router-dom';
-
+import { Link} from 'react-router-dom';
+import { useEffect } from 'react';
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
@@ -32,8 +32,13 @@ const testimonials = [
   // Add more testimonials as needed
 ];
 
+
 const Home = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+
+    
+
 
   const handlePrev = () => {
     setCurrentIndex(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1);
@@ -42,6 +47,14 @@ const Home = () => {
   const handleNext = () => {
     setCurrentIndex(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1);
   };
+
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+
+    })
+  }
+  
   return (
     <div className="container mx-auto  ">
       <h1 className='heading'></h1>
@@ -299,7 +312,7 @@ const Home = () => {
 
 
 
-          <Link to="/Eca">
+          <Link onClick={routeTo} to="/Eca">
 
           <button className="bg-[#162545] hover:bg-blue-700 rounded-2xl text-white font-bold py-2 px-4 transition-colors duration-300">
             Click Here
@@ -315,7 +328,7 @@ const Home = () => {
           <p className="text-center mb-4 w-[700px]">
           The Library Section at Annapurna School is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
           </p>
-          <Link to="/Notice">
+          <Link onClick={routeTo} to="/Notice">
           <button className="bg-[#162545] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl transition-colors duration-300">
             Click Here
           </button>
