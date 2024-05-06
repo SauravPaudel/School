@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 import school2 from '../../assets/school1.jpg'
+import schoolabout from '../../assets/schoolabout.jpg'
+import classImage from '../../assets/class.jpg'
+import eca4 from '../../assets/eca4.jpg'
+import program1 from '../../assets/program1.jpg'
+import teachers from '../../assets/teachers.jpg'
+import style2 from '../../assets/style2.jpg'
+import eca from '../../assets/eca.jpg'
+import class2 from '../../assets/class2.jpg'
 
 const Notice = () => {
   const magazineIssues = [
@@ -24,32 +32,32 @@ const Notice = () => {
     {
       date: 'Feb 22, 2024',
       title: 'Dance Competition',
-      image: 'https://via.placeholder.com/600x400',
+      image: eca4,
     },
     {
       date: '11 Nov - 12 Dec, 2023',
-      title: 'Antarikshya MUN',
-      image: 'https://via.placeholder.com/600x400',
+      title: 'Annapurna MUN',
+      image: program1,
     },
     {
       date: 'Sept 19, 2023',
       title: 'Teacher Parent Meeting',
-      image: 'https://via.placeholder.com/600x400',
+      image: teachers,
     },
     {
       date: 'Aug 18, 2023',
       title: 'Art Competition',
-      image: 'https://via.placeholder.com/600x400',
+      image: style2,
     },
     {
       date: 'July 1 - July 7, 2023',
       title: 'Sports Week',
-      image: 'https://via.placeholder.com/600x400',
+      image: eca,
     },
     {
       date: 'June 15, 2023',
       title: 'Quiz Competition',
-      image: 'https://via.placeholder.com/600x400',
+      image: class2,
     },
   ];
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -126,7 +134,7 @@ const Notice = () => {
           </div>
       
           <div className='flex relative left-[200px] '>
-          <img className=' h-[400px] rounded-lg py-2' src={school2} alt="" />
+          <img className=' h-[400px] w-[700px] rounded-lg py-2' src={schoolabout} alt="" />
           </div>
         </div>
 
@@ -152,7 +160,7 @@ const Notice = () => {
                 <div className="bg-[#162545] rounded-lg p-6">
                   <img
                     className="mx-auto h-40 w-40"
-                    src="https://via.placeholder.com/600x400"
+                    src={classImage}
                     alt=""
                   />
                 </div>
