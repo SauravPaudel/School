@@ -7,6 +7,7 @@ import prakash from '../../assets/prakash.jpg'
 import hari from '../../assets/hari.jpeg'
 import kapil from '../../assets/Kapil.jpeg'
 import gyatri from '../../assets/Gyatri.jpeg'
+import chairman from '../../assets/chairman.jpg'
 
 const Faculty = () => {
   return (
@@ -58,14 +59,14 @@ const Faculty = () => {
     <div className="w-[1450px] ml-[40px] h-[50vh] bg-[#162545] flex flex-col items-center justify-center">
       <h1 className="text-2xl font-bold text-white mb-4">FOUNDERS</h1>
       <p className="text-lg text-gray-300 mb-8">
-        Antarikshya School was founded by Mr. Ram Shrestha and Ms. Sita Pathak in 1998
+        Annapurna Vidhay Mandir School was founded by Mr. Dunika Bhusal and Mr. Madan Malla in 2056
       </p>
       <div className="flex gap-60">
         <div className="relative ">
           <div className="w-40 h-40 rounded-full overflow-hidden hover:scale-105 transition-transform">
             <img
-              src="https://via.placeholder.com/150"
-              alt="Mr. Ram Shrestha"
+              src={chairman}
+              alt="Mr. Chairman"
               className="w-full h-full object-cover"
             />
           </div>
@@ -78,8 +79,8 @@ const Faculty = () => {
         <div className="relative">
           <div className="w-40 h-40 rounded-full overflow-hidden hover:scale-105 transition-transform">
             <img
-              src="https://via.placeholder.com/150"
-              alt="Ms. Sita Pathak"
+              src={principal}
+              alt="Principle"
               className="w-full h-full object-cover"
             />
           </div>
