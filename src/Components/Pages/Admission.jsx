@@ -3,6 +3,13 @@
 import schoolabout from '../../assets/schoolabout.jpg'
 import React, { useEffect, useState } from 'react';
 import { Link} from 'react-router-dom';
+import { FaBuffer } from "react-icons/fa";
+import { FaAngleDoubleUp } from "react-icons/fa";
+import { FaDivide } from "react-icons/fa";
+import { FaRegAddressCard } from "react-icons/fa";
+import { FaUserTie } from "react-icons/fa";
+
+
 // Import Swiper React components
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -444,9 +451,7 @@ const Admission = () => {
   <div className="flex justify-center items-center gap-28 mb-4">
     <div className="flex flex-col items-center group">
       <div className="bg-white p-4 rounded-full transition-all duration-300 group-hover:bg-indigo-500">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
+      <FaAngleDoubleUp className=' w-6 h-6  text-red-400' />
       </div>
       <div className="h-6 rotate-90 w-6 border-r-4 border-dotted border-gray-600"></div>
       <p className="text-gray-300 mt-2">Apply</p>
@@ -454,9 +459,7 @@ const Admission = () => {
     </div>
     <div className="flex flex-col items-center group">
       <div className="bg-white p-4 rounded-full transition-all duration-300 group-hover:bg-indigo-500">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
+      <FaBuffer className='w-6 h-6  text-red-400' />
       </div>
       <div className="h-6 rotate-90 w-6 border-r-4 border-dotted border-gray-600"></div>
       <p className="text-gray-300 mt-2">Short listing</p>
@@ -464,9 +467,7 @@ const Admission = () => {
 
     <div className="flex flex-col items-center group">
       <div className="bg-white p-4 rounded-full transition-all duration-300 group-hover:bg-indigo-500">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
+      <FaDivide className='w-6 h-6  text-red-400' />
       </div>
       <div className="h-6 rotate-90 w-6 border-r-4 border-dotted border-gray-600"></div>
       <p className="text-gray-300 mt-2">Exam/Interview</p>
@@ -474,9 +475,7 @@ const Admission = () => {
 
     <div className="flex flex-col items-center group">
       <div className="bg-white p-4 rounded-full transition-all duration-300 group-hover:bg-indigo-500">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
+      <FaRegAddressCard className =" w-6 h-6  text-red-400"/>
       </div>
       <div className="h-6 rotate-90 w-6 border-r-4 border-dotted border-gray-600"></div>
       <p className="text-gray-300 mt-2">Selection</p>
@@ -484,9 +483,7 @@ const Admission = () => {
 
     <div className="flex flex-col items-center group">
       <div className="bg-white p-4 rounded-full transition-all duration-300 group-hover:bg-indigo-500">
-        <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-indigo-500 group-hover:text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-        </svg>
+      <FaUserTie className='w-6 h-5 text-red-400' />
       </div>
       <div className="h-6 rotate-90 w-6 border-r-4 border-dotted border-gray-600"></div>
       <p className="text-gray-300 mt-2">Welcome</p>
