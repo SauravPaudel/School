@@ -1,6 +1,13 @@
 import React from 'react'
+import { Link} from 'react-router-dom';
 
 const Footer = () => {
+  const routeTo = () => {
+    window.scrollTo({
+      top:0,
+  
+    })
+  }
   return (
     <footer className="bg-gray-900 mt-[180px] py-12 ">
     <div className="max-w-7xl mx-auto  px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between">
@@ -8,12 +15,36 @@ const Footer = () => {
         <h2 className="text-white text-2xl font-bold mb-4">About Us</h2>
         <nav className="text-gray-400">
           <ul>
-            <li className="mb-2">About ABC</li>
-            <li className="mb-2">History</li>
-            <li className="mb-2">Board of Trustees</li>
-            <li className="mb-2">Philosophy</li>
-            <li className="mb-2">Alumni</li>
-            <li className="mb-2">Milestone</li>
+          <li className="mb-2">
+  <Link onClick={routeTo} to="/About" className="hover:text-red-800 transition duration-300">
+    About ABC
+  </Link>
+</li>
+            <li className="mb-2">
+              
+  <Link onClick={routeTo} to="/Home" className="hover:text-red-800 transition duration-300">
+
+              History
+  </ Link>
+              </li>
+
+            <li className="mb-2">
+            <Link onClick={routeTo} to="/Notice" className="hover:text-red-800 transition duration-300">
+              Board of Trustees
+              </Link></li>
+
+            <li className="mb-2">
+            <Link onClick={routeTo} to="/Faculty" className="hover:text-red-800 transition duration-300">
+              Philosophy
+              </Link></li>
+            <li className="mb-2">
+            <Link onClick={routeTo} to="/Eca" className="hover:text-red-800 transition duration-300">
+              Alumni
+              </Link></li>
+            <li className="mb-2">
+            <Link onClick={routeTo} to="/Home" className="hover:text-red-800 transition duration-300">
+              Milestone
+              </Link></li>
           </ul>
         </nav>
       </div>
