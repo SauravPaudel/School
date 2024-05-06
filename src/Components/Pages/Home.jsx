@@ -81,11 +81,11 @@ const Home = () => {
     
     <div className="flex flex-col  mr-4 md:flex-row sm:justify-center sm:pt-20 items-center py-7  ">
       <div className="flex flex-col gap-4 ">
-        <p className="text-4xl relative left-20 sm:text-7xl capitalize font-semibold sm:flex gap-1 ">
+        <p className="text-4xl text-[#162545]  relative left-20 sm:text-7xl capitalize font-semibold sm:flex gap-1 ">
           Shree
-          <span className="text-purple-500  pl-2 capitalize">Annapurna</span>{" "}
+          <span className="text-[#162545]  pl-2 capitalize">Annapurna</span>{" "}
           <br />
-          <span className="text-purple-500 pl-2 capitalize">Vidhya</span>{" "}
+          <span className="text-[#162545] pl-2 capitalize">Vidhya</span>{" "}
           Mandir <br />{" "}
         </p>
         <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Social Transformation Through Quality Education </p>
