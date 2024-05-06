@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link} from 'react-router-dom';
+import { FaHeart } from "react-icons/fa";
 
 
 
@@ -101,7 +102,7 @@ About Us
      
     </div>
     <p className=' text-white  mt-8 pt-12 h-8 w-auto flex items-center ml-[400px] '>
-          Copyright ©2024 All rights reserved | This Website is made with <i className='fa fa-heart'></i> by ANTARIKSHYA
+          Copyright ©2024 All rights reserved | This Website is made with <span className='w-6  ml-2'> <FaHeart /> </span>  by ANTARIKSHYA
         </p>
   </footer>
   )
