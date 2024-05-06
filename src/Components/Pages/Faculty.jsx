@@ -2,6 +2,12 @@ import React from 'react'
 import school3 from '../../assets/school3.jpg'
 import teachers from '../../assets/teachers.jpg'
 import schoolprofile from '../../assets/schoolprofile.jpg'
+import principal from '../../assets/principal.jpg'
+import prakash from '../../assets/prakash.jpg'
+import hari from '../../assets/hari.jpeg'
+import kapil from '../../assets/Kapil.jpeg'
+import gyatri from '../../assets/Gyatri.jpeg'
+
 const Faculty = () => {
   return (
    <div className='mx-auto container overflow-hidden '>
@@ -95,18 +101,18 @@ const Faculty = () => {
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={principal}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4  w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Mr. Kapil Ghimire</p>
-            <p>Accountant</p>
+            <p>Mr. Madan Malla</p>
+            <p>Principle</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={hari}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
@@ -117,13 +123,13 @@ const Faculty = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={kapil}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Mr. Prakash Bhusal</p>
-            <p>Coordinator</p>
+            <p>Mr. Kapil Ghimire</p>
+            <p>Accountant</p>
           </div>
         </div>
       </div>
@@ -132,9 +138,20 @@ const Faculty = () => {
       <div className="grid grid-cols-3 gap-4 mt-8">
         <div className="flex w-[500px] flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={prakash}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md  object-cover "
+          />
+          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
+            <p>Mr. Prakash Bhusal</p>
+            <p>Co-ordinator</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
             <p>Mr. Ashok Belbase</p>
@@ -143,24 +160,13 @@ const Faculty = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={gyatri}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
-          </div>
-        </div>
-        <div className="flex flex-col items-center">
-          <img
-            src="https://via.placeholder.com/150"
-            alt="Placeholder"
-            className="w-[350px] h-[350px] rounded-md object-cover "
-          />
-          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
+            <p>Ms. Gyatri </p>
+            <p>Teacher</p>
           </div>
         </div>
       </div>
