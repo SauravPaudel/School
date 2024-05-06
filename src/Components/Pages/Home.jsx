@@ -128,11 +128,20 @@ const Home = () => {
           <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
            
 
+<<<<<<< HEAD
            <Link onClick={routeTo} to="/About">
           <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
           </button>
            </Link>
+=======
+        <Link to="/Faculty">
+        <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
+           Read More
+          </button>
+        </Link>
+         
+>>>>>>> 0a81e68 (ch)
           </div>
       
           <div className='flex relative bottom-20 bo left-[300px] pt-[180px] '>
