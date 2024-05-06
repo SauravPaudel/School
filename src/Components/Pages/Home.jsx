@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
+<<<<<<< HEAD
 
 import { Link} from 'react-router-dom';
 import { useEffect } from 'react';
+=======
+
+>>>>>>> 06cb77fc54bc09f28a25a10d04681a227d1e47eb
 import './Home.css';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import { FaQuoteLeft } from 'react-icons/fa';
