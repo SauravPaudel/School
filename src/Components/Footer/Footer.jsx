@@ -16,34 +16,33 @@ const Footer = () => {
         <nav className="text-gray-400">
           <ul>
           <li className="mb-2">
-  <Link onClick={routeTo} to="/About" className="hover:text-red-800 transition duration-300">
-    About ABC
+  <Link onClick={routeTo} to="/Home" className="hover:text-red-800 transition duration-300">
+    Home
   </Link>
 </li>
             <li className="mb-2">
               
-  <Link onClick={routeTo} to="/Home" className="hover:text-red-800 transition duration-300">
-
-              History
+  <Link onClick={routeTo} to="/About " className="hover:text-red-800 transition duration-300">
+About Us
   </ Link>
               </li>
 
             <li className="mb-2">
-            <Link onClick={routeTo} to="/Notice" className="hover:text-red-800 transition duration-300">
-              Board of Trustees
+            <Link onClick={routeTo} to="/Admission" className="hover:text-red-800 transition duration-300">
+             Admission
               </Link></li>
 
             <li className="mb-2">
             <Link onClick={routeTo} to="/Faculty" className="hover:text-red-800 transition duration-300">
-              Philosophy
+             Faculty
               </Link></li>
             <li className="mb-2">
             <Link onClick={routeTo} to="/Eca" className="hover:text-red-800 transition duration-300">
-              Alumni
+              Eca
               </Link></li>
             <li className="mb-2">
-            <Link onClick={routeTo} to="/Home" className="hover:text-red-800 transition duration-300">
-              Milestone
+            <Link onClick={routeTo} to="/Notice" className="hover:text-red-800 transition duration-300">
+            Notice
               </Link></li>
           </ul>
         </nav>
@@ -51,38 +50,38 @@ const Footer = () => {
       <div className="mb-8 md:mb-0">
         <h2 className="text-white text-2xl font-bold mb-4">Contact</h2>
         <div className="text-gray-400">
-          <p className="mb-2">Banganga 05, kapilvastu</p>
-          <p className="mb-2">GPO Box. 8975, EPC 1477,</p>
-          <p className="mb-2">Phone: 977-1-5678906</p>
-          <p className="mb-2">Fax: 977-1-3456789</p>
-          <p className="mb-2">Email: info@abc.edu.np</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Banganga 05, kapilvastu</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">GPO Box. 8975, EPC 1477,</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Phone: 977-1-5678906</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Fax: 977-1-3456789</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Email: info@abc.edu.np</p>
         </div>
       </div>
       <div>
         <h2 className="text-white text-2xl font-bold mb-4">Follow</h2>
         <nav className="text-gray-400">
           <ul>
-           <li className="mb-2 flex items-center">
+           <li className="mb-2 flex items-center hover:text-red-800 transition duration-300">
        <i className="fab fa-facebook mr-2"></i>
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
            Facebook
             </a>
             </li>
 
-            <li className="mb-2 flex items-center">
+            <li className="mb-2 flex items-center hover:text-red-800 transition duration-300">
   <i className="fab fa-instagram mr-2"></i>
   <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
     Instagram
   </a>
 </li>
 
-<li className="mb-2 flex items-center">
+<li className="mb-2 flex items-center hover:text-red-800 transition duration-300">
   <i className="fab fa-twitter mr-2"></i>
   <a href="https://twitter.com/your-twitter-profile" target="_blank" rel="noopener noreferrer">
     Twitter
   </a>
 </li>
-<li className="mb-2 flex items-center">
+<li className="mb-2 flex items-center hover:text-red-800 transition duration-300">
   <i className="fab fa-youtube mr-2"></i>
   <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
   Youtube
