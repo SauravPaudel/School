@@ -20,13 +20,11 @@ const Footer = () => {
       <div className="mb-8 md:mb-0">
         <h2 className="text-white text-2xl font-bold mb-4">Contact</h2>
         <div className="text-gray-400">
-          <p className="mb-2">New Baneshwor, Kathmandu</p>
+          <p className="mb-2">Banganga 05, kapilvastu</p>
           <p className="mb-2">GPO Box. 8975, EPC 1477,</p>
-          <p className="mb-2">Kathmandu, Nepal</p>
           <p className="mb-2">Phone: 977-1-5678906</p>
           <p className="mb-2">Fax: 977-1-3456789</p>
           <p className="mb-2">Email: info@abc.edu.np</p>
-          <p>communication@abc.edu.np</p>
         </div>
       </div>
       <div>
