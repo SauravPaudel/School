@@ -21,6 +21,7 @@ const SignUp = () => {
             ></iframe>
           </div>
         </div>
+        <form>
         <div className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
           <div className="mb-4">
@@ -80,6 +81,8 @@ const SignUp = () => {
             Send Message
           </button>
         </div>
+        </form>
+      
       </div>
       <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center space-x-6">
         <div className="flex items-center text-gray-600">
