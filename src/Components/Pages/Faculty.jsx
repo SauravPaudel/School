@@ -8,6 +8,7 @@ import hari from '../../assets/hari.jpeg'
 import kapil from '../../assets/Kapil.jpeg'
 import gyatri from '../../assets/Gyatri.jpeg'
 import chairman from '../../assets/chairman.jpg'
+import ashok from '../../assets/ashok.jpeg'
 import {Link} from 'react-router-dom';
 
 
@@ -165,7 +166,7 @@ const Faculty = () => {
         </div>
         <div className="flex flex-col items-center">
           <img
-            src="https://via.placeholder.com/150"
+            src={ashok}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
