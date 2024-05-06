@@ -88,7 +88,7 @@ const Home = () => {
           <span className="text-purple-500 pl-2 capitalize">Vidhya</span>{" "}
           Mandir <br />{" "}
         </p>
-        <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
+        <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Social Transformation Through Quality Education </p>
        <img className='w-[1000px] max-h-[600px] ml-[100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
       </div>
     </div>
@@ -105,7 +105,7 @@ const Home = () => {
         <h1 className='heading4'></h1>
       
         </div>
-        <span className='inline relative float-right top-[820px] right-[525px] gap-x-2  text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white font-bold'>Read more</span>
+        {/* <span className='inline relative float-right top-[820px] right-[525px] gap-x-2  text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white font-bold'>Read more</span> */}
 
         <div className='text-black absolute left-[1000px] '>
         <div className='relative top-20'>
@@ -128,11 +128,12 @@ const Home = () => {
           <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
            
 
-           <Link onClick={routeTo} to="/About">
-          <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
+        <Link to="/Faculty">
+        <button type="button" className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none relative  top-10">
            Read More
           </button>
-           </Link>
+        </Link>
+         
           </div>
       
           <div className='flex relative bottom-20 bo left-[300px] pt-[180px] '>
