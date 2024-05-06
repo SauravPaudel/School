@@ -64,8 +64,8 @@ const Faculty = () => {
             />
           </div>
           <div className="mt-4 text-center border border-gray-500 px-10 py-1 relative right-10 inline-block rounded-md">
-            <p className="text-white font-semibold">Mr. Ram Shrestha</p>
-              <p className="text-gray-300">Director</p>
+            <p className="text-white font-semibold">Mr. Dunika Bhusal</p>
+              <p className="text-gray-300">Chairman</p>
             
           </div>
         </div>
@@ -78,8 +78,8 @@ const Faculty = () => {
             />
           </div>
           <div className="mt-4 text-center border relative right-8  border-gray-500 px-10 py-1 inline-block rounded-md">
-            <p className="text-white font-semibold">Ms. Sita Pathak</p>
-              <p className="text-gray-300">Director</p>
+            <p className="text-white font-semibold">Ms. Madan Malla</p>
+              <p className="text-gray-300">Principle</p>
           </div>
         </div>
       </div>
@@ -100,8 +100,8 @@ const Faculty = () => {
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4  w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
+            <p>Mr. Kapil Ghimire</p>
+            <p>Accountant</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -111,8 +111,8 @@ const Faculty = () => {
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
+            <p>Mr. Harinarayan Chaudary</p>
+            <p>Vice Principle</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -122,8 +122,8 @@ const Faculty = () => {
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
+            <p>Mr. Prakash Bhusal</p>
+            <p>Coordinator</p>
           </div>
         </div>
       </div>
@@ -137,8 +137,8 @@ const Faculty = () => {
             className="w-[350px] h-[350px] rounded-md  object-cover "
           />
           <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
-            <p>Ms. Garima Panta</p>
-            <p>Coordinator of pre-school</p>
+            <p>Mr. Ashok Belbase</p>
+            <p>Math Teacher</p>
           </div>
         </div>
         <div className="flex flex-col items-center">
