@@ -26,9 +26,9 @@ const Navbar = () => {
           <div className="flex items-center gap-16 my-12">
             {/* logo */}
             <div>
-              <Link className='flex gap-1 font-bold text-white items-center' to='/Home'> 
+              <Link className='flex gap-1 font-bold text-white items-center hover:text-white' to='/Home'> 
               <PaperAirplaneIcon className="h-6 w-6 text-primary" />
-                <span>School</span>
+                <span>Annapurna Vidhya Mandir</span>
               </Link>
               {/* <a
                 href="/"
