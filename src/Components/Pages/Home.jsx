@@ -10,6 +10,10 @@ import principal from '../../assets/principal.jpg'
 import student1 from '../../assets/student1.jpg'
 import school from '../../assets/school.png'
 import students from '../../assets/students.jpg'
+import chairman from '../../assets/chairman.jpg'
+
+
+
 
 const testimonials = [
   {
@@ -246,12 +250,12 @@ const Home = () => {
         {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={principal}
+            src={chairman}
             alt="Card 2 Image"
             className="w-full h-[300px] object-cover rounded-t-lg"
           />
           <div className="p-6">
-            <h3 className="text-xl font-bold mb-2 text-black">Message from Principal</h3>
+            <h3 className="text-xl font-bold mb-2 text-black">Message from Chairman</h3>
             <p className="text-gray-700 mb-4">
             As the Principal of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
             </p>

@@ -1,6 +1,7 @@
 import React from 'react'
 import school3 from '../../assets/school3.jpg'
-
+import teachers from '../../assets/teachers.jpg'
+import schoolprofile from '../../assets/schoolprofile.jpg'
 const Faculty = () => {
   return (
    <div className='mx-auto container '>
@@ -15,7 +16,7 @@ const Faculty = () => {
           </div>
       
           <div className='flex relative left-[300px] '>
-          <img className=' h-[400px] rounded-lg py-2' src={school3} alt="" />
+          <img className=' h-[400px] w-[600px] rounded-lg py-2' src={schoolprofile} alt="" />
           </div>
         </div>
 
@@ -23,9 +24,9 @@ const Faculty = () => {
           <span className='text-black font-bold'>Our Team</span><br></br>
           </div>
         <div className="h-screen flex flex-col justify-center items-center px-14">
-      <div className="w-full  h-[500px] flex justify-center mb-8">
+      <div className="w-[800px]  h-[400px] flex justify-center mb-8">
         <img
-           src="https://via.placeholder.com/600x400"
+           src={teachers}
           alt="Team Image"
           className="w-full "
         />
