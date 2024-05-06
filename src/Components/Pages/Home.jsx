@@ -8,7 +8,8 @@ import school3 from '../../assets/program3.jpg'
 import student from '../../assets/student.png'
 import principal from '../../assets/principal.jpg'
 import student1 from '../../assets/student1.jpg'
-
+import school from '../../assets/school.png'
+import students from '../../assets/students.jpg'
 
 const testimonials = [
   {
@@ -66,7 +67,7 @@ const Home = () => {
           Mandir <br />{" "}
         </p>
         <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Dedicate and Transform to Excelence</p>
-       <img className='w-[1000px] max-h-[600px] ml-[100px] max-sm:w-[500px] relative left-5' src={schoolprofile} alt="" />
+       <img className='w-[1000px] max-h-[600px] ml-[100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
       </div>
     </div>
 
@@ -283,7 +284,7 @@ const Home = () => {
         <div className="flex justify-center items-center h-[90vh] w-[1450px] ml-[40px]">
       <div className="flex">
         <div className="flex flex-col items-center  transition-all duration-300 hover:scale-105">
-          <img src={student1} alt="Image 1" className="w-[300px] h-[320px] object-cover rounded-lg mb-4" />
+          <img src={student1} alt="Image 1" className="w-[320px] h-[320px] object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold mb-2">Student</h2>
           <p className="text-center mb-4 w-[700px]">
           An online version of the student handbook outlining school policies, code of conduct, and procedures to ensure a safe and respectful learning environment.
@@ -296,7 +297,7 @@ const Home = () => {
         </div>
         <div className="h-full border-r border-gray-300 mx-8"></div>
         <div className="flex flex-col items-center transition-all duration-300 hover:scale-105">
-          <img src={student} alt="Image 2" className="w-[300px] h-[300px] object-cover rounded-lg mb-4" />
+          <img src={students} alt="Image 2" className="w-[320px] h-[320px] object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold mb-2">Library</h2>
           <p className="text-center mb-4 w-[700px]">
           The Library Section at Annapurna School is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
