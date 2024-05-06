@@ -8,7 +8,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css'; // Import Swiper's CSS
 
 // import required modules
-import { Pagination,Autoplay } from 'swiper/modules';
+import { Autoplay } from 'swiper/modules';
+ import student from '../../assets/student3.jpg'    
+
+import style2 from '../../assets/style2.jpg'
+import students2 from '../../assets/students2.jpg'
+import students from '../../assets/students.jpg'
+
+
+
+
+
 
 const Admission = () => {
   return (
@@ -53,7 +63,7 @@ const Admission = () => {
       
     pagination={true}
    //  navigation={true} 
-    modules={[ Autoplay,  Pagination]}
+    modules={[ Autoplay]}
    className="w-[1300px] h-[700px]"
    >
     <SwiperSlide className='flex flex-center  h-[100px] w-[150px]'>
@@ -61,7 +71,7 @@ const Admission = () => {
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={student}
             alt="Card 1 Image"
             className="w-full h-60 object-cover rounded-t-lg"
             />
@@ -100,7 +110,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={student}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -138,7 +148,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={style2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -179,7 +189,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={student}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -217,7 +227,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={style2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -254,7 +264,7 @@ const Admission = () => {
 <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={students}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -294,7 +304,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={students2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -332,7 +342,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={style2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -368,7 +378,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={students2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -405,7 +415,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={students}
             alt="Card 3 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -443,7 +453,7 @@ const Admission = () => {
    
 
     {/* Process  */}
-    <div className="w-[1350px] mt-[280px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
+    <div className="w-[1350px] mt-[80px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
   <h2 className="text-white text-2xl font-bold mb-4">ADMISSION PROCESS</h2>
   <h3 className="text-gray-300 text-lg mb-8">Steps for applying in Antarikshya School</h3>
 
