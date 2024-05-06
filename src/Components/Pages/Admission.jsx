@@ -1,6 +1,15 @@
-import React from 'react'
+
 // import school2 from '../../assets/school1.jpg'
 import schoolabout from '../../assets/schoolabout.jpg'
+import React, { useEffect, useState } from 'react';
+// Import Swiper React components
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'; // Import Swiper's CSS
+
+// import required modules
+import { Pagination,Autoplay } from 'swiper/modules';
+
 const Admission = () => {
   return (
     <div className="container mx-auto overflow-hidden ">
@@ -23,24 +32,82 @@ const Admission = () => {
         {/* Section Section  */}
 
 
-        <div className='flex-col  relative left-32 top-14 max-h-[400px] '>
+        <div className='flex-col  relative left-32 top-14 max-h-[300px] '>
           <span className='text-black font-bold'>Admission</span><br></br>
           <p className='text-black font-bold pt-4 '>Admission Enrollment </p>
           </div>
+          
 
-          <div className="w-full h-[80vh] flex justify-center items-center relative bottom-28">
-      <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className='h-full   pt-[100px]' >
+
+         <Swiper
+    effect={'coverflow'}
+         
+    grabCursor={true}
+    centeredSlides={true}
+   
+     slidesPerView={'3'}
+    spaceBetween={50} 
+      loop={true}
+      autoplay={{ delay: 2300 }} // Adjust delay as needed
+      
+    pagination={true}
+   //  navigation={true} 
+    modules={[ Autoplay,  Pagination]}
+   className="w-[1300px] h-[700px]"
+   >
+    <SwiperSlide className='flex flex-center  h-[100px] w-[150px]'>
+      
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src="https://via.placeholder.com/600x400"
+            src={}
             alt="Card 1 Image"
             className="w-full h-60 object-cover rounded-t-lg"
-          />
+            />
           <div className="p-4">
             <h3 className="text-xl font-bold mb-2">Grade - I</h3>
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-I must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+              >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                  />
+              </svg>
+            </a>
+          </div>
+        </div>
+                  </SwiperSlide>
+
+        {/* Card 2 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>   
+
+        
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - II</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-II must complete and submit the form.
             </p>
             <a
               href="#"
@@ -64,8 +131,90 @@ const Admission = () => {
             </a>
           </div>
         </div>
+        </SwiperSlide>
+        {/* Card 3 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
 
-        {/* Card 2 */}
+        
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - III</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-III must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+
+
+
+        {/* Card 4 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
+
+        
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - IV</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-IV must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+
+
+        {/* Card 5 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
             src="https://via.placeholder.com/600x400"
@@ -75,7 +224,44 @@ const Admission = () => {
           <div className="p-4">
             <h3 className="text-xl font-bold mb-2">Grade - V</h3>
             <p className="text-gray-700 mb-4">
-              Parents who wish to enroll their children in Grade-I must complete and submit the form.
+              Parents who wish to enroll their children in Grade-V must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+
+        {/* Card 6 */}
+<SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - VI</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-VI must complete and submit the form.
             </p>
             <a
               href="#"
@@ -100,7 +286,123 @@ const Admission = () => {
           </div>
         </div>
 
-        {/* Card 3 */}
+        </SwiperSlide>
+
+
+
+        {/* Card 7 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - VII</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-VII must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+
+
+        {/* Card 8 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - VIII</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-VIII must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+        {/* Card 9 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
+        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+          <img
+            src="https://via.placeholder.com/600x400"
+            alt="Card 2 Image"
+            className="w-full h-60 object-cover rounded-t-lg"
+          />
+          <div className="p-4">
+            <h3 className="text-xl font-bold mb-2">Grade - IX</h3>
+            <p className="text-gray-700 mb-4">
+              Parents who wish to enroll their children in Grade-IX must complete and submit the form.
+            </p>
+            <a
+              href="#"
+              className="text-red-500 flex items-center hover:text-blue-700 transition duration-300"
+            >
+              Submit your form here
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-4 w-4 ml-2"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        </SwiperSlide>
+
+        {/* Card 10 */}
+        <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
             src="https://via.placeholder.com/600x400"
@@ -108,9 +410,9 @@ const Admission = () => {
             className="w-full h-60 object-cover rounded-t-lg"
           />
           <div className="p-4">
-            <h3 className="text-xl font-bold mb-2">Grade - VII</h3>
+            <h3 className="text-xl font-bold mb-2">Grade -X</h3>
             <p className="text-gray-700 mb-4">
-              Parents who wish to enroll their children in Grade-I must complete and submit the form.
+              Parents who wish to enroll their children in Grade-X must complete and submit the form.
             </p>
             <a
               href="#"
@@ -134,11 +436,14 @@ const Admission = () => {
             </a>
           </div>
         </div>
+        </SwiperSlide>
+
+        </Swiper>
       </div>
-    </div>
+   
 
     {/* Process  */}
-    <div className="w-[1350px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
+    <div className="w-[1350px] mt-[280px] ml-[60px] h-[350px] rounded-2xl bg-[#162545] flex flex-col relative bottom-20 items-center p-8">
   <h2 className="text-white text-2xl font-bold mb-4">ADMISSION PROCESS</h2>
   <h3 className="text-gray-300 text-lg mb-8">Steps for applying in Antarikshya School</h3>
 
