@@ -1,6 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react';
+import axios from 'axios';
 
 const SignUp = () => {
+  const [formData, setFormData] = useState({
+    fullname: '',
+    phone: '',
+    email: '',
+    subject: '',
+    message: '',
+  });
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await axios.post('', formData);
+      // Handle the response from the server
+      console.log(response.data);
+    } catch (error) {
+      // Handle the error
+      console.error(error);
+    }
+  };
   return (
     <div className=' mx-auto container'>
         <div className="bg-gray-100 py-16">
@@ -21,7 +44,7 @@ const SignUp = () => {
             ></iframe>
           </div>
         </div>
-        <form>
+        <form onSubmit={handleSubmit}>
         <div className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
           <div className="mb-4">
@@ -30,7 +53,10 @@ const SignUp = () => {
             </label>
             <input
               type="text"
-              id="name"
+              id="fullname"
+              name='fullname'
+              value={formData.fullname}
+        onChange={handleChange}
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -41,6 +67,9 @@ const SignUp = () => {
             <input
               type="tel"
               id="phone"
+              name='phone'
+              value={formData.phone}
+        onChange={handleChange}
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -51,6 +80,9 @@ const SignUp = () => {
             <input
               type="email"
               id="email"
+              name='email'
+              value={formData.email}
+        onChange={handleChange}
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -61,6 +93,9 @@ const SignUp = () => {
             <input
               type="text"
               id="subject"
+              name='subject'
+              value={formData.subject}
+        onChange={handleChange}
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -70,6 +105,9 @@ const SignUp = () => {
             </label>
             <textarea
               id="message"
+              name='message'
+              value={formData.message}
+        onChange={handleChange}
               rows="4"
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>

@@ -57,3 +57,12 @@
   top: 195px;
   left: 850px;
 }
+
+@media only screen and (max-device-width: 480px) {
+.heading{
+  height: 200px;
+}
+.heading2{
+  height: 200px;
+}
+}

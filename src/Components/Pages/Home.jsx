@@ -89,7 +89,7 @@ const Home = () => {
           Mandir <br />{" "}
         </p>
         <p className='text-1xl pt-4 relative left-20 text-gray-700 sm:flex sm:text-2xl items-center justify-center'>Social Transformation Through Quality Education </p>
-       <img className='w-[1000px] max-h-[600px] ml-[100px] max-sm:w-[500px] relative left-5' src={school} alt="" />
+       <img className=' sm:w-[1000px] max-h-[600px] ml-[100px] relative left-5  ' src={school} alt="" />
       </div>
     </div>
 
@@ -102,7 +102,7 @@ const Home = () => {
         </div>
         <p className='text-black max-w-[700px] relative left-28 top-28'>Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
         </div>
-        <h1 className='heading4'></h1>
+        <h1 className='heading4 sm:h-20'></h1>
       
         </div>
         {/* <span className='inline relative float-right top-[820px] right-[525px] gap-x-2  text-sm font-semibold rounded-lg border border-gray bg-gray-800 text-white font-bold'>Read more</span> */}

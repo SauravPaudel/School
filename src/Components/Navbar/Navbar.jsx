@@ -80,15 +80,12 @@ const Navbar = () => {
       >
         <div className="px-8 py-6">
           <div className="flex flex-col gap-8 font-bold tracking-wider">
-            <a href="#" className="border-l-4 border-gray-600">
-              Home
-            </a>
-            <a href="#">Admission</a>
-            <a href="#">Faculty</a>
-            <a href="#">ECA</a>
-            <a href="#">Notice</a>
-            <a href="#">About</a>
-            <a href="#">Facilities</a>
+          <NavLink to="/Home">Home</NavLink>
+            <NavLink to="/Admission">Admission</NavLink>
+            <NavLink to="/Faculty">Faculty</NavLink>
+            <NavLink to="/Eca">ECA</NavLink>
+            <NavLink to="/Notice">Notice</NavLink>
+            <NavLink to="/About">About</NavLink>
           </div>
         </div>
       </div>
