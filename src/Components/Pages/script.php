@@ -21,7 +21,7 @@ $subject = $_POST['subject'];
 $message = $_POST['message'];
 
 // Prepare and execute the SQL query
-$sql = "INSERT INTO test (fullname, phone, email, subject, message)
+$sql = "INSERT INTO school (fullname, phone, email, subject, message)
 VALUES ('$fullname', '$phone', '$email', '$subject', '$message')";
 
 if ($conn->query($sql) === TRUE) {
