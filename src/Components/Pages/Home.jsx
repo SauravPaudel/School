@@ -234,7 +234,7 @@ const Home = () => {
     </div>
 
       {/* Message from the principle  */}
-      <div className="w-full h-[80vh] flex justify-center items-center">
+      <div className="w-full h-[80vh] mt-[50px] flex justify-center items-center">
       <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-20">
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg ">
