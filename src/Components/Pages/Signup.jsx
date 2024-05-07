@@ -16,7 +16,7 @@ const SignUp = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('', formData);
+      const response = await axios.post('./script.php', formData);
       // Handle the response from the server
       console.log(response.data);
     } catch (error) {
