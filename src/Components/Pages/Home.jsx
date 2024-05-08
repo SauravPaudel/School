@@ -288,7 +288,7 @@ const Home = () => {
             alt="Card 1 Image"
             className="w-full h-[300px] object-cover rounded-t-lg"
           />
-          <div className="pt-[4px]">
+          <div className="pt-[24px]">
             <h3 className="text-xl  ml-2 font-bold mb-2 text-black">Message from Principal</h3>
             <p className="text-gray-700  ml-2 mb-4 ">
             At Annapurna School, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
