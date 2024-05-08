@@ -10,6 +10,21 @@ import eca from '../../assets/eca.jpg'
 import class2 from '../../assets/class2.jpg'
 import {Link} from 'react-router-dom';
 
+import downloadnur from '../../assets/downloadnur.png'
+import downloadkg from '../../assets/downloadkg.png'
+import download1 from '../../assets/download1.png'
+import download2 from '../../assets/download2.png'
+import download3 from '../../assets/download3.png'
+import download4 from '../../assets/download4.png'
+import download5 from '../../assets/download5.png'
+import download6 from '../../assets/download6.png'
+import download7 from '../../assets/download7.png'
+import download8 from '../../assets/download8.png'
+import download9 from '../../assets/download9.png'
+import download10 from '../../assets/download10.png'
+
+
+
 // Import Swiper React components
 
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -23,50 +38,62 @@ const Notice = () => {
     {
       date: 'May 20, 2023',
       grade: 'Nursey (E-learning)',
+      image: downloadnur,
     },
     {
       date: 'Feb 9, 2023',
       grade: 'Kg (E-learning)',
+      image: downloadkg,
     },
     {
       date: 'May 9, 2023',
       grade: 'I (E-learning)',
+      image: download1,
     },
     {
       date: 'June 14, 2023',
       grade: 'II (E-learning)',
+      image: download2,
     },
     {
       date: 'Oct 9, 2023',
       grade: 'III (E-learning)',
+      image: download3,
     },
     {
       date: 'Sept 9, 2023',
       grade: 'IV (E-learning)',
+      image: download4,
     },
     {
       date: 'Jan 9, 2023',
       grade: 'V (E-learning)',
+      image: download5,
     },
     {
       date: 'Feb 9, 2023',
       grade: 'VI (E-learning)',
+      image: download6,
     },
     {
       date: ' 9, 2023',
       grade: 'VII (E-learning)',
+      image: download7,
     },
     {
       date: 'June 9, 2022',
       grade: 'VIII (E-learning)',
+      image: download8,
     },
     {
       date: 'Feb 19, 2021',
       grade: 'IX (E-learning)',
+      image: download9,
     },
     {
       date: 'Jan 3, 2023',
       grade: 'X (E-learning)',
+      image: download10,
     },
   ];
   const events = [
@@ -209,8 +236,8 @@ const Notice = () => {
               <div className="px-4 py-5 sm:px-6">
                 <div className="bg-[#162545] rounded-lg p-6">
                   <img
-                    className="mx-auto h-40 w-40"
-                    src={classImage}
+                    className="h-[180px] w-[200px]  object-cover"
+                    src={issue.image}
                     alt=""
                   />
                 </div>
