@@ -41,6 +41,41 @@ const testimonials = [
     name: 'Ramesh Khanal',
     role: 'Parents',
   },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Student',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Parents',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Student',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Parents',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Student',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Parents',
+  },
+  {
+    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    name: 'Ramesh Khanal',
+    role: 'Student',
+  },
   // Add more testimonials as needed
 ];
 
