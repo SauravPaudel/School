@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const SignUp = () => {
@@ -7,6 +9,12 @@ const [phone, SetPhone] = useState("");
 const [email, SetEmail] = useState("");
 const [subject, SetSubject] = useState("");
 const [message, SetMessage] = useState("");
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  // Handle form submission logic
+  toast.success('Thank you for your response');
+};
 
 const collectData = async(e) =>{
   e.preventDefault();
@@ -119,6 +127,7 @@ const collectData = async(e) =>{
           </button>
         </div>
         </form>
+        <ToastContainer />
       
       </div>
       <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center space-x-6">
