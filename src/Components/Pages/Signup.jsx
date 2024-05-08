@@ -2,6 +2,23 @@ import React, { useState } from 'react';
 
 
 const SignUp = () => {
+const [name, SetName] = useState("");
+const [phone, SetPhone] = useState("");
+const [email, SetEmail] = useState("");
+const [subject, SetSubject] = useState("");
+const [message, SetMessage] = useState("");
+
+const collectData = async(e) =>{
+  e.preventDefault();
+  let result = await fetch ('http://localhost:4000/',{
+    method: 'post',
+    body: JSON.stringify({name,phone,email,subject,message}), headers:{
+      'Content-Type': 'application/json'
+    },
+  });
+  result = await result.json;
+  localStorage.setItem("user", JSON.stringify(result));
+}
 
   return (
     <div className=' mx-auto container'>
@@ -23,7 +40,7 @@ const SignUp = () => {
             ></iframe>
           </div>
         </div>
-        <form >
+        <form onSubmit={collectData} >
         <div className="bg-white shadow-md rounded-lg p-6">
           <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
           <div className="mb-4">
@@ -34,6 +51,8 @@ const SignUp = () => {
               type="text"
               id="fullname"
               name='fullname'
+              value={name}
+              onChange={(e)=> SetName(e.target.value)} 
            
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
@@ -46,7 +65,8 @@ const SignUp = () => {
               type="tel"
               id="phone"
               name='phone'
-             
+              value={phone}
+              onChange={(e)=> SetPhone(e.target.value)} 
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -58,7 +78,8 @@ const SignUp = () => {
               type="email"
               id="email"
               name='email'
-            
+              value={email}
+              onChange={(e)=> SetEmail(e.target.value)} 
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
@@ -70,6 +91,8 @@ const SignUp = () => {
               type="text"
               id="subject"
               name='subject'
+              value={subject}
+              onChange={(e)=> SetSubject(e.target.value)} 
              
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
@@ -81,6 +104,8 @@ const SignUp = () => {
             <textarea
               id="message"
               name='message'
+              value={message}
+              onChange={(e)=> SetMessage(e.target.value)} 
             
               rows="4"
               className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
