@@ -101,7 +101,7 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-I must complete and submit the form.
             </p>
-            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 mt-10 flex items-center hover:text-blue-700 transition duration-300">
   Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -137,7 +137,7 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-II must complete and submit the form.
             </p>
-            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 mt-10 flex items-center hover:text-blue-700 transition duration-300">
   Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -245,7 +245,7 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-V must complete and submit the form.
             </p>
-            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 mt-10 flex items-center hover:text-blue-700 transition duration-300">
   Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -418,7 +418,7 @@ const Admission = () => {
             <p className="text-gray-700 mb-4">
               Parents who wish to enroll their children in Grade-X must complete and submit the form.
             </p>
-            <Link onClick={routeTo} to="/Signup" className="text-red-500 flex items-center hover:text-blue-700 transition duration-300">
+            <Link onClick={routeTo} to="/Signup" className="text-red-500 mt-10 flex items-center hover:text-blue-700 transition duration-300">
   Submit your form here
               <svg
                 xmlns="http://www.w3.org/2000/svg"
