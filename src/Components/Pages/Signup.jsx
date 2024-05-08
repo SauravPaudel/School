@@ -118,7 +118,7 @@ const SignUp = () => {
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          <span>antarikshya@school.edu</span>
+          <span>avm2058@gmail.com</span>
         </div>
         <div className="flex items-center text-gray-600">
           <svg
@@ -135,7 +135,7 @@ const SignUp = () => {
               d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
             />
           </svg>
-          <span>contact@antarikshya.edu</span>
+          <span>contact@annapurna.edu</span>
         </div>
         <div className="flex items-center text-gray-600">
           <svg
