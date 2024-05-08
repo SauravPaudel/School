@@ -86,7 +86,7 @@ const Faculty = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="mt-2 text-center border border-gray-500 px-10 py-1 relative right-10 inline-block rounded-md">
+          <div className="mt-2 text-center border border-gray-500 px-10 py-1 relative right-10 inline-block rounded-md  hover:bg-blue-800 text-white cursor-pointer">
             <p className="text-white font-semibold">Mr. Dunika Bhusal</p>
               <p className="text-gray-300">Chairman</p>
             
@@ -100,7 +100,7 @@ const Faculty = () => {
               className="w-full h-full object-cover"
             />
           </div>
-          <div className="mt-2 text-center border relative right-8  border-gray-500 px-10 py-1 inline-block rounded-md">
+          <div className="mt-2 text-center border relative right-8  border-gray-500 px-10 py-1 inline-block rounded-md hover:bg-blue-800 text-white cursor-pointer">
             <p className="text-white font-semibold">Ms. Madan Malla</p>
               <p className="text-gray-300">Principle</p>
           </div>
@@ -122,7 +122,7 @@ const Faculty = () => {
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
-          <div className="mt-4  w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
+          <div className="mt-4  w-[350px] text-center rounded-md border-2 border-gray-300 p-2 ">
             <p>Mr. Madan Malla</p>
             <p>Principle</p>
           </div>

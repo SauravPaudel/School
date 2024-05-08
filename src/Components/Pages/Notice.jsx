@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import school2 from '../../assets/school1.jpg'
 import schoolabout from '../../assets/schoolabout.jpg'
 import classImage from '../../assets/class.jpg'
@@ -10,25 +10,63 @@ import eca from '../../assets/eca.jpg'
 import class2 from '../../assets/class2.jpg'
 import {Link} from 'react-router-dom';
 
+// Import Swiper React components
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css'; // Import Swiper's CSS
+
+// import required modules
+import { Autoplay } from 'swiper/modules';
 
 const Notice = () => {
   const magazineIssues = [
     {
+      date: 'May 20, 2023',
+      grade: 'Nursey (E-learning)',
+    },
+    {
+      date: 'Feb 9, 2023',
+      grade: 'Kg (E-learning)',
+    },
+    {
+      date: 'May 9, 2023',
+      grade: 'I (E-learning)',
+    },
+    {
+      date: 'June 14, 2023',
+      grade: 'II (E-learning)',
+    },
+    {
       date: 'Oct 9, 2023',
-      grade: 'IX (E-learning)',
+      grade: 'III (E-learning)',
+    },
+    {
+      date: 'Sept 9, 2023',
+      grade: 'IV (E-learning)',
+    },
+    {
+      date: 'Jan 9, 2023',
+      grade: 'V (E-learning)',
+    },
+    {
+      date: 'Feb 9, 2023',
+      grade: 'VI (E-learning)',
+    },
+    {
+      date: ' 9, 2023',
+      grade: 'VII (E-learning)',
     },
     {
       date: 'June 9, 2022',
-      grade: 'X (E-learning)',
-    },
-    {
-      date: 'Feb 19, 2021',
       grade: 'VIII (E-learning)',
     },
     {
+      date: 'Feb 19, 2021',
+      grade: 'IX (E-learning)',
+    },
+    {
       date: 'Jan 3, 2023',
-      grade: 'VII (E-learning)',
+      grade: 'X (E-learning)',
     },
   ];
   const events = [
