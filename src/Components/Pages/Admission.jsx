@@ -17,11 +17,16 @@ import 'swiper/swiper-bundle.css'; // Import Swiper's CSS
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
- import student from '../../assets/student3.jpg'    
-
-import style2 from '../../assets/style2.jpg'
-import students2 from '../../assets/students2.jpg'
-import students from '../../assets/students.jpg'
+import admission1 from '../../assets/admission1.png'
+import admission2 from '../../assets/admission2.png'
+import admission3 from '../../assets/admission3.png'
+import admission4 from '../../assets/admission4.png'
+import admission5 from '../../assets/admission5.png'
+import admission6 from '../../assets/admission6.png'
+import admission7 from '../../assets/admission7.png'
+import admission8 from '../../assets/admission8.png'
+import admission9 from '../../assets/admission9.png'
+import admission10 from '../../assets/admission10.png'
 
 
 
@@ -92,7 +97,7 @@ const Admission = () => {
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={student}
+            src={admission1}
             alt="Card 1 Image"
             className="w-full h-60 object-cover rounded-t-lg"
             />
@@ -128,7 +133,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={student}
+            src={admission2}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -163,7 +168,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={style2}
+            src={admission3}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -201,7 +206,7 @@ const Admission = () => {
         
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={student}
+            src={admission4}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -236,7 +241,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={style2}
+            src={admission5}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -270,7 +275,7 @@ const Admission = () => {
 <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={students}
+            src={admission6}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -307,7 +312,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={students2}
+            src={admission7}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -342,7 +347,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={style2}
+            src={admission8}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -375,7 +380,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={students2}
+            src={admission9}
             alt="Card 2 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
@@ -409,7 +414,7 @@ const Admission = () => {
         <SwiperSlide className='flex flex-center h-[100px] w-[150px]'>
         <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
-            src={students}
+            src={admission10}
             alt="Card 3 Image"
             className="w-full h-60 object-cover rounded-t-lg"
           />
