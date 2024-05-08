@@ -24,7 +24,7 @@ $message = $_POST['message'];
 $sql = "INSERT INTO school (fullname, phone, email, subject, message)
 VALUES ('$fullname', '$phone', '$email', '$subject', '$message')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($sql) === True) {
     echo "Data inserted successfully";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;

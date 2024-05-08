@@ -113,7 +113,7 @@ const Faculty = () => {
           <p className='text-black font-bold pt-2 '>Our experts are diligently working to enact change. </p>
           </div>
 
-          <div className="h-screen w-full flex  pt-2  flex-col relative top-20 justify-center items-center mb-28">
+          <div className="h-full w-full flex  pt-2  flex-col relative top-10 justify-center items-center mb-28">
       <div className="grid grid-cols-3 gap-4">
         {/* First Row */}
         <div className="flex w-[500px] flex-col items-center">
@@ -152,14 +152,14 @@ const Faculty = () => {
       </div>
 
       {/* Second Row */}
-      <div className="grid grid-cols-3 gap-4  mt-2   ">
+      <div className="grid grid-cols-3 gap-4  mt-10   ">
         <div className="flex w-[500px] flex-col items-center">
           <img
             src={prakash}
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md  object-cover "
           />
-          <div className="mt-4   w-[350px] h-[150px] text-center rounded-md  border-2 border-gray-300 p-2">
+          <div className="mt-4   w-[350px]  text-center rounded-md  border-2 border-gray-300  p-2">
             <p>Mr. Prakash Bhusal</p>
             <p>Co-ordinator</p>
           </div>
@@ -170,7 +170,7 @@ const Faculty = () => {
             alt="Placeholder"
             className="w-[350px] h-[350px] rounded-md object-cover "
           />
-          <div className="mt-4 w-[350px] h-[150px] text-center rounded-md border-2 border-gray-300 p-2">
+          <div className="mt-4 w-[350px] text-center rounded-md border-2 border-gray-300 p-2">
             <p>Mr. Ashok Belbase</p>
             <p>Math Teacher</p>
           </div>
