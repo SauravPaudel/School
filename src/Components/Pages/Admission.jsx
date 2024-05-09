@@ -74,7 +74,7 @@ const Admission = () => {
           </div>
           
 
-          <div className='h-full   pt-[100px]' >
+          <div className=' h-[700px]  py-[100px]' >
 
          <Swiper
     effect={'coverflow'}
@@ -95,7 +95,7 @@ const Admission = () => {
     <SwiperSlide className='flex flex-center  h-[100px] w-[150px]'>
       
         {/* Card 1 */}
-        <div className="bg-white rounded-lg shadow-md transition duration-300 hover:shadow-lg">
+        <div className=" bg-slate-600 rounded-lg shadow-md transition duration-300 hover:shadow-lg">
           <img
             src={admission1}
             alt="Card 1 Image"
