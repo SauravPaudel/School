@@ -1,5 +1,6 @@
 
 import React from 'react'
+import logo from '../../assets/logo.png'
 import { Link, NavLink } from 'react-router-dom';
 import { useState } from "react";
 import {
@@ -27,7 +28,7 @@ const Navbar = () => {
             {/* logo */}
             <div>
               <Link className='flex gap-1 font-bold text-white items-center hover:text-white' to='/Home'> 
-              <PaperAirplaneIcon className="h-6 w-6 text-primary" />
+              <img className='w-20 h-20' src={logo} alt="Logo" />
                 <span>Annapurna Vidhya Mandir</span>
               </Link>
               {/* <a
