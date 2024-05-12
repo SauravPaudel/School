@@ -9,6 +9,26 @@ import kapil from '../../assets/Kapil.jpeg'
 import gyatri from '../../assets/Gyatri.jpeg'
 import chairman from '../../assets/chairman.jpg'
 import ashok from '../../assets/ashok.jpeg'
+import teacher2 from '../../assets/teacher2.jpeg'
+import teacher3 from '../../assets/teacher3.jpeg'
+import teacher4 from '../../assets/teacher4.jpeg'
+import teacher5 from '../../assets/teacher5.jpeg'
+import teacher6 from '../../assets/teacher6.jpeg'
+import teacher7 from '../../assets/teacher7.jpeg'
+import teacher8 from '../../assets/teacher8.jpeg'
+import teacher9 from '../../assets/teacher9.jpeg'
+import teacher10 from '../../assets/teacher10.jpeg'
+import teacher11 from '../../assets/teacher11.jpeg'
+import teacher12 from '../../assets/teacher12.jpeg'
+import teacher13 from '../../assets/teacher13.jpeg'
+import teacher14 from '../../assets/teacher14.jpeg'
+import teacher15 from '../../assets/teacher15.jpeg'
+import teacher16 from '../../assets/teacher16.jpeg'
+import teacher17 from '../../assets/teacher17.jpeg'
+import teacher18 from '../../assets/teacher18.jpeg'
+import teacher19 from '../../assets/teacher19.jpeg'
+import teacher20 from '../../assets/teacher20.jpeg'
+import teacher21 from '../../assets/teacher21.jpeg'
 import {Link} from 'react-router-dom';
 
 
@@ -185,6 +205,146 @@ const Faculty = () => {
             <p>Ms. Gyatri </p>
             <p>Teacher</p>
           </div>
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher2}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher3}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher4}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher5}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher6}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher7}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher8}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher9}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher10}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher11}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher12}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher13}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher14}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher15}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher16}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher17}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher18}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher19}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher20}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
+        </div>
+        <div className="flex w-[500px] flex-col items-center  ">
+          <img
+            src={teacher21}
+            alt="Placeholder"
+            className="w-[350px] h-[350px] rounded-md object-cover "
+          />
         </div>
       </div>
     </div>
