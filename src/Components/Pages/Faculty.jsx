@@ -92,7 +92,7 @@ const Faculty = () => {
             
           </div>
         </div>
-        <div className="relative">
+        {/* <div className="relative">
           <div className="w-40 h-40 rounded-full overflow-hidden hover:scale-105 transition-transform">
             <img
               src={principal}
@@ -104,7 +104,7 @@ const Faculty = () => {
             <p className="text-white font-semibold">Ms. Madan Malla</p>
               <p className="text-gray-300">Principle</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
 
