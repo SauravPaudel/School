@@ -29,7 +29,7 @@ const Navbar = () => {
             <div>
               <Link className='flex gap-1 font-bold text-white items-center hover:text-white' to='/Home'> 
               <img className='w-20 h-20' src={logo} alt="Logo" />
-                <span>Annapurna Vidhya Mandir</span>
+                <span>Shree Annapurna Vidhya Mandir</span>
               </Link>
               {/* <a
                 href="/"
