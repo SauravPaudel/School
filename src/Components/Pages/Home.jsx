@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
-    name: 'Rajesh Nepal',
+    name: 'Akash Paudel',
     role: 'Student',
   },
   {
@@ -157,7 +157,7 @@ const Home = () => {
         <img className='w-[550px] ml-[-120px] pt-[80px] max-sm:w-[500px]  rounded-lg py-2' src={school3} alt="" />
         </div>
         <div className=' relative ml-[-160px] top-28 left-10'>
-        <span className='inline text-blue-900 text-2xl font-bold '>Annapurna Vidhya Mandir Foundation</span>
+        <span className='inline text-blue-900 text-2xl font-bold '>Annapurna Vidhya Mandir School</span>
         <p className='text-black mt-8  max-w-[600px] text-justify'>The Annapurna School Foundation is a  organization dedicated to providing quality education and support to underserved communities. Through various initiatives, it aims to bridge educational gaps, empower youth, and uplift communities. With a focus on holistic development, the foundation strives to create opportunities for students to thrive academically, socially, and emotionally. Through collaboration with partners and stakeholders, the Annapurna School Foundation works towards building a brighter future for all.</p>
         </div>
         </div>
