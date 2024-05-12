@@ -57,9 +57,8 @@ About Us
         <div className="text-gray-400">
           <p className="mb-2 hover:text-red-800 transition duration-300">Banganga 05, kapilvastu</p>
           <p className="mb-2 hover:text-red-800 transition duration-300">GPO Box. 8975, EPC 1477,</p>
-          <p className="mb-2 hover:text-red-800 transition duration-300">Phone: 977-1-5678906</p>
-          <p className="mb-2 hover:text-red-800 transition duration-300">Fax: 977-1-3456789</p>
-          <p className="mb-2 hover:text-red-800 transition duration-300">Email: info@abc.edu.np</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Phone: +977-985-7055181</p>
+          <p className="mb-2 hover:text-red-800 transition duration-300">Email:avm2058@gmail.com</p>
         </div>
       </div>
       <div>
