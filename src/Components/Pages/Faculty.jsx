@@ -73,9 +73,9 @@ const Faculty = () => {
     </div>
 
     <div className="w-[1450px] ml-[40px] mt-[-70px] h-[50vh] bg-[#162545] flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold text-white mb-4">FOUNDERS</h1>
+      <h1 className="text-2xl font-bold text-white mb-4">FOUNDER</h1>
       <p className="text-lg text-gray-300 mb-8">
-        Annapurna Vidhay Mandir School was founded by Mr. Dunika Bhusal and Mr. Madan Malla in 2056
+        Annapurna Vidhay Mandir School was founded by Mr. Dunika Bhusal in 2058 B.S
       </p>
       <div className="flex gap-60">
         <div className="relative ">
