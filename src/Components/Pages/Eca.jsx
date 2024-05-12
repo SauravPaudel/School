@@ -159,9 +159,9 @@ const Eca = () => {
           className="w-[780px] h-[480px] object-cover rounded-lg"
         />
         <div className="absolute bottom-0 left-0 w-full p-4 bg-white rounded-b-lg shadow-lg transition-all duration-300 hover:shadow-xl">
-          <h2 className="text-lg font-bold mb-2">Extra Club</h2>
+          <h2 className="text-lg font-bold mb-2">Dance Club</h2>
           <p className="border border-gray-300 rounded-md p-2">
-          This club is closely linked with the science stream, fostering an environment where students are motivated to showcase their creativity through events.
+           These dance classes provide a platform for students to explore their creativity, express themselves through movement, and develop physical rhythm.
           </p>
         </div>
       </div>
