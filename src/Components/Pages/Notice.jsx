@@ -200,7 +200,7 @@ const Notice = () => {
           <div className='flex-col relative left-32 top-14 max-h-[400px]'>
           <span className='text-black font-bold'>Notice , Publication And Calendar</span><br></br>
           <p className='text-black font-bold pt-4 '>Notice and Publication</p>
-          <p className='text-black w-[500px] pt-6 '>Each occasion at Antarikshya School is marked by happiness and the commencement of fresh opportunities for learning. Our school's notice board is like a big billboard where we put up all the important stuff. It tells everyone about events, school schedules, fun activities, and even the cool things students achieve. Teachers make sure to keep it updated so everyone, including students, teachers, and parents, knows what's happening in our school. 
+          <p className='text-black w-[500px] pt-6 '>Each occasion at Annapurna Vidhya Mandir School is marked by happiness and the commencement of fresh opportunities for learning. Our school's notice board is like a big billboard where we put up all the important stuff. It tells everyone about events, school schedules, fun activities, and even the cool things students achieve. Teachers make sure to keep it updated so everyone, including students, teachers, and parents, knows what's happening in our school. 
           It's kind of like our school's big news center, making sure everyone feels connected.</p>
 
              <Link onClick={routeTo} to="/Home">

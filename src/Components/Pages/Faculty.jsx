@@ -27,7 +27,7 @@ const Faculty = () => {
     <div className='w-full h-[650px] flex flex-row pt-10'>
           <div className='flex-col relative left-24 top-10 max-h-[400px]'>
           <span className='text-black font-bold'>Our Community</span><br></br>
-          <p className='text-black max-w-[500px] pt-2 '> The faculty at Antarikshya strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
+          <p className='text-black max-w-[500px] pt-2 '> The faculty at Annapurna Vidhya Mandir School strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
 
 
 
