@@ -18,7 +18,7 @@ AOS.init();
 function App() {
   return (
     <>
-    < Popup / >
+    < Popup />
      <div className='w-full h-100vh overflow-hidden'>
       <Navbar/>
     <Routes>
