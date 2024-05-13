@@ -19,7 +19,7 @@ function App() {
   return (
     <>
     < Popup / >
-     <div className='w-full h-100vh overflow-hidde'>
+     <div className='w-full h-100vh overflow-hidden'>
       <Navbar/>
     <Routes>
         <Route path='/' exact element={<Home />} />
