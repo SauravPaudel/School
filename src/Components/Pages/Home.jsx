@@ -9,18 +9,18 @@ import school3 from '../../assets/program3.jpg'
 import student from '../../assets/student.png'
 import principal from '../../assets/principal.jpg'
 import student1 from '../../assets/student1.jpg'
-import school from '../../assets/school.png'
+import school from '../../assets/laptop.png'
 import students from '../../assets/students.jpg'
 import chairman from '../../assets/chairman.jpg'
 
 const testimonials = [
   {
-    quote: 'What sets Annapurna School apart is its holistic approach to education. Beyond the traditional classroom setting, students are encouraged to explore their interests through a wide range of extracurricular activities, including sports, arts, and community service initiatives.  ',
+    quote: 'What sets Shree Annapurna Vidhya Mandir apart is its holistic approach to education. Beyond the traditional classroom setting, students are encouraged to explore their interests through a wide range of extracurricular activities, including sports, arts, and community service initiatives.  ',
     name: 'Saurav Paudel',
     role: 'Student',
   },
   {
-    quote: "The variety of academic programs and extracurricular activities offered at Annapurna School has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
+    quote: "The variety of academic programs and extracurricular activities offered at Shree Annapurna Vidhya Mandir has allowed me to explore my interests and develop new skills. Whether it's participating in science competitions, engaging in creative writing workshops, or volunteering in community projects.",
     name: 'Akash Paudel',
     role: 'Student',
   },
@@ -127,15 +127,15 @@ const Home = () => {
       {/* Details */}
       <div className='flex w-full min-h-screen px-[5%]'>
         <div className='flex flex-col w-full gap-12'>
-          <h5 className='relative inline text-2xl font-bold text-center text-blue-900 md:text-start'>Annapurna Vidhya Mandir School</h5>
+          <h5 className='relative inline text-2xl font-bold text-center text-blue-900 md:text-start'>Shree Annapurna Vidhya Mandir School</h5>
           <div className='flex flex-col gap-12 md:flex-row'>
             <div className='flex flex-col gap-8'>
               <img className='rounded-lg max-h-[400px] object-cover object-center md:h-auto border-b-4 border-r-4 border-blue-900' src={school2} alt="" />
-              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'>Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
+              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'> Shree Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
             </div>
             <div className='flex flex-col gap-8'>
               <img className='rounded-lg max-h-[400px] object-cover object-center md:h-auto border-b-4 border-r-4 border-blue-900' src={school3} alt="" />
-              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'>Annapurna School Foundation is a organization dedicated to providing quality education and support to underserved communities. Through various initiatives, it aims to bridge educational gaps, empower youth, and uplift communities. With a focus on holistic development, the foundation strives to create opportunities for students to thrive academically, socially, and emotionally. Through collaboration with partners and stakeholders, the Annapurna School Foundation works towards building a brighter future.</p>
+              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'>Shree Annapurna Vidhya Mandir Foundation is a organization dedicated to providing quality education and support to underserved communities. Through various initiatives, it aims to bridge educational gaps, empower youth, and uplift communities. With a focus on holistic development, the foundation strives to create opportunities for students to thrive academically, socially, and emotionally. Through collaboration with partners and stakeholders, the Shree Annapurna Vidhya Mandir Foundation works towards building a brighter future.</p>
             </div>
           </div>
         </div>
@@ -145,8 +145,8 @@ const Home = () => {
       <div className='flex flex-col md:flex-row px-[5%] gap-16 md:gap-0 w-full pt-20 h-max'>
         <div className='relative flex flex-col w-full'>
           <span className='font-bold text-black'>Our Program</span><br></br>
-          <p className='pt-4 font-bold text-blue-900 '>The Annapurna School Inspire learning with <br></br> limitless possiblities</p>
-          <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
+          <p className='pt-4 font-bold text-blue-900 '>Shree Annapurna Vidhya Mandir Inspire learning with <br></br> limitless possiblities</p>
+          <p className='text-black max-w-[500px] pt-6 '>The program section of Shree Annapurna Vidhya Mandir encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
           <Link to="/Faculty">
             <button type="button" className="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gray-800 border rounded-lg gap-x-2 border-gray hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none top-10">
               Read More
@@ -235,7 +235,7 @@ const Home = () => {
             <div className="mt-4">
               <h2 className="text-2xl font-bold text-white">Admissions</h2>
               <p className="mt-2 text-white">
-                The Admission Introduction section for Annapurna School welcomes prospective students and families to explore the vibrant educational community. Here, visitors can learn about the school's mission, values, and academic offerings. Through engaging multimedia content and personal testimonials, the Admission Introduction section provides insight into the unique learning environment and highlights the school's commitment to nurturing each student's potential.
+                The Admission Introduction section for Shree Annapurna Vidhya Mandir welcomes prospective students and families to explore the vibrant educational community. Here, visitors can learn about the school's mission, values, and academic offerings. Through engaging multimedia content and personal testimonials, the Admission Introduction section provides insight into the unique learning environment and highlights the school's commitment to nurturing each student's potential.
               </p>
             </div>
             {/* Read More Button */}
@@ -261,7 +261,7 @@ const Home = () => {
             <div className="p-6">
               <h3 className="mb-2 ml-2 text-xl font-bold text-black">Message from Principal</h3>
               <p className="mb-4 ml-2 text-gray-700 ">
-                At Annapurna School, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
+                At Shree Annapurna Vidhya Mandir, we believe that education is not just about acquiring knowledge; it's about fostering a passion for learning, nurturing creativity, and instilling values that will guide our students throughout their lives. Our dedicated team of educators is committed to providing a supportive and stimulating environment where each student can reach their full potential.
               </p>
               <h3 className='text-1xl font-bold className="flex items-center pt-4 ml-2 text-black transition duration-300'>- Madan Malla</h3>
             </div>
@@ -276,7 +276,7 @@ const Home = () => {
             <div className="p-6">
               <h3 className="mb-2 text-xl font-bold text-black">Message from Chairman</h3>
               <p className="mb-4 text-gray-700">
-                As the Chairman of Annapurna School, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
+                As the Chairman of Shree Annapurna Vidhya Mandir, I am deeply committed to ensuring that every student receives a well-rounded education that not only prepares them for academic success but also equips them with the skills and mindset needed to navigate an ever-changing world. Through innovative teaching methods, personalized attention, and a wide range of extracurricular opportunities.
               </p>
               <h3 className='text-1xl font-bold className="flex items-center pt-4 ml-2 text-black transition duration-300'>- Dunika Bhushal</h3>
             </div>
@@ -303,7 +303,7 @@ const Home = () => {
             <img src={students} alt="Image 2" className="w-[320px] h-[320px] object-cover rounded-lg mb-4" />
             <h2 className="mb-2 text-2xl font-bold">Library</h2>
             <p className="w-10/12 mb-4 text-center px-auto">
-              The Library Section at Annapurna School is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
+              The Library Section at Shree Annapurna Vidhya Mandir is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
             </p>
             <Link onClick={routeTo} to="/Notice">
               <button className="bg-[#162545] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-2xl transition-colors duration-300">

@@ -39,8 +39,8 @@ const Admission = () => {
       <div className='flex flex-col w-full gap-12 my-20 md:flex-row'>
         <div className='flex flex-col w-full gap-4'>
           <span className='font-bold text-black'>Admission</span>
-          <p className='font-bold text-black '>Welcome to Annapurna  School Admission</p>
-          <p className='text-black'> At Annapurna Vidhya Mandir School, the admission process is a seamless and eagerly anticipated event that occurs annually in the month of Baishak. Welcoming students from Nursery to Grade Nine, the school opens its doors to aspiring learners seeking a quality education. Parents and guardians are invited to submit their applications during this period, ensuring a fair and transparent selection process. With a focus on inclusivity and diversity, the school strives to accommodate students from various backgrounds, fostering a rich learning community.</p>
+          <p className='font-bold text-black '>Welcome to Shree Annapurna Vidhya Mandir Admission</p>
+          <p className='text-black'> At Shree Annapurna Vidhya Mandir School, the admission process is a seamless and eagerly anticipated event that occurs annually in the month of Baishak. Welcoming students from Nursery to Grade Nine, the school opens its doors to aspiring learners seeking a quality education. Parents and guardians are invited to submit their applications during this period, ensuring a fair and transparent selection process. With a focus on inclusivity and diversity, the school strives to accommodate students from various backgrounds, fostering a rich learning community.</p>
           <Link onClick={routeTo} to="/Home" className='px-4 py-3 mt-4 text-white bg-gray-800 md:mt-8 w-max rounded-xl hover:bg-gray-700 hover:text-white'>
             Read More
           </Link>

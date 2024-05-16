@@ -32,12 +32,12 @@ const Navbar = () => {
     <div className="app">
       <marquee behavior="" direction="" className='fixed bg-[#0a1122] z-20 top-0'>
         <ul className="z-20 flex gap-4 py-2 text-white list-disc">
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Admission are open from Class One to Eight. </li>
+          <li className='pr-4'>Admission are open from Class One to Eight. </li>
+          <li className='pr-4'>Admission are open from Class One to Eight. </li>
+          <li className='pr-4'>Admission are open from Class One to Eight. </li>
+          <li className='pr-4'>Admission are open from Class One to Eight. </li>
+         
         </ul>
       </marquee>
       <nav>
@@ -54,12 +54,52 @@ const Navbar = () => {
               </div>
               {/* primary */}
               <div className="hidden gap-8 lg:flex ">
-                <NavLink onClick={toTop} to="/Home">Home</NavLink>
-                <NavLink onClick={toTop} to="/Admission">Admission</NavLink>
-                <NavLink onClick={toTop} to="/Faculty">Faculty</NavLink>
-                <NavLink onClick={toTop} to="/Eca">ECA</NavLink>
-                <NavLink onClick={toTop} to="/Notice">Notice</NavLink>
-                <NavLink onClick={toTop} to="/About">About</NavLink>
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/Home">Home</NavLink>
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/Admission">Admission</NavLink>
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/Faculty">Faculty</NavLink>
+
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/Eca">ECA</NavLink>
+
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/Notice">Notice</NavLink>
+
+                <NavLink  className={({ isActive }) =>
+                  `${
+                    isActive
+                      ? "bg-gray-900 text-white"
+                      : "text-gray-300 hover:bg-gray-700 hover:text-white"
+                  } rounded-md px-3 py-2 text-md font-medium transition duration-300`
+                } onClick={toTop} to="/About">About</NavLink>
+
               </div>
             </div>
             {/* Secondary Menu*/}
@@ -70,7 +110,7 @@ const Navbar = () => {
                   <SunIcon className={`h-6 w-6  'text-black' : 'text-black'}`} onClick={toggleMode} />
                 </div>
                 <div>
-                  <NavLink to="/Signup">
+                  <NavLink  to="/Signup">
                     <button className={`rounded-full border-solid border-2 border-gray-300 py-2 px-4 hover:bg-gray-700 hover:text-gray-100 ${darkMode ? 'dark:bg-gray-800 dark:text-white' : ''}`}>
                       Contact
                     </button>

@@ -144,7 +144,7 @@ const Notice = () => {
             <span className='font-bold text-black'>Notice , Publication And Calendar</span>
             <p className='font-bold text-black '>Notice and Publication</p>
             <p className='text-black'>
-              Each occasion at Annapurna Vidhya Mandir School is marked by happiness and the commencement of fresh opportunities for learning. Our school's notice board is like a big billboard where we put up all the important stuff. It tells everyone about events, school schedules, fun activities, and even the cool things students achieve. Teachers make sure to keep it updated so everyone, including students, teachers, and parents, knows what's happening in our school. It's kind of like our school's big news center, making sure everyone feels connected.
+              Each occasion at Shree Annapurna Vidhya Mandir School is marked by happiness and the commencement of fresh opportunities for learning. Our school's notice board is like a big billboard where we put up all the important stuff. It tells everyone about events, school schedules, fun activities, and even the cool things students achieve. Teachers make sure to keep it updated so everyone, including students, teachers, and parents, knows what's happening in our school. It's kind of like our school's big news center, making sure everyone feels connected.
             </p>
             <Link onClick={routeTo} to="/Home" className='px-4 py-3 mt-4 text-white bg-gray-800 md:mt-8 w-max rounded-xl hover:bg-gray-700 hover:text-white'>
               View Newsletters
