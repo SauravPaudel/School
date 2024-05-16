@@ -143,7 +143,7 @@ const Home = () => {
 
       {/* Our Programs  */}
       <div className='flex flex-col md:flex-row px-[5%] gap-16 md:gap-0 w-full pt-20 h-max'>
-        <div className='flex-col relative flex max-h-[400px] w-full'>
+        <div className='relative flex flex-col w-full'>
           <span className='font-bold text-black'>Our Program</span><br></br>
           <p className='pt-4 font-bold text-blue-900 '>The Annapurna School Inspire learning with <br></br> limitless possiblities</p>
           <p className='text-black max-w-[500px] pt-6 '>The program section of Annapurna School encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
