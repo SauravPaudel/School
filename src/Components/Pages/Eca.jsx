@@ -4,7 +4,7 @@ import style from '../../assets/style.jpg'
 import style1 from '../../assets/style2.jpg'
 import class2 from '../../assets/class2.jpg'
 import classImage from '../../assets/class.jpg';
-import student5 from '../../assets/student5.jpg'
+import student5 from '../../assets/bipin.jpeg'
 import eca from '../../assets/eca.jpg'
 import eca4 from '../../assets/eca4.jpg'
 import student3 from '../../assets/student3.jpg'
