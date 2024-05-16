@@ -29,13 +29,13 @@ const collectData = async(e) =>{
 }
 
   return (
-    <div className=' mx-auto container'>
-        <div className="bg-gray-100 py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div className=' mx-auto container mt-[120px]'>
+        <div className="py-16 bg-gray-100">
+      <div className="grid grid-cols-1 gap-8 px-4 mx-auto max-w-7xl sm:px-6 lg:px-8 md:grid-cols-2">
         <div>
-          <h2 className="text-2xl font-semibold mb-4">Annapurna School</h2>
-          <p className="text-gray-600 mb-4">Kapilvastu,Kopawa</p>
-          <div className="bg-white shadow-md rounded-lg overflow-hidden">
+          <h2 className="mb-4 text-2xl font-semibold">Annapurna School</h2>
+          <p className="mb-4 text-gray-600">Kapilvastu,Kopawa</p>
+          <div className="overflow-hidden bg-white rounded-lg shadow-md">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.8152529835517!2d85.31909031430198!3d27.698599982828823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19a9598a1d2b%3A0xa9c8b8e7d2e046d8!2sAntarikshya%20School!5e0!3m2!1sen!2snp!4v1683102678190!5m2!1sen!2snp"
               width="100%"
@@ -49,10 +49,10 @@ const collectData = async(e) =>{
           </div>
         </div>
         <form onSubmit={collectData} >
-        <div className="bg-white shadow-md rounded-lg p-6">
-          <h2 className="text-2xl font-semibold mb-4">Send Us a Message</h2>
+        <div className="p-6 bg-white rounded-lg shadow-md">
+          <h2 className="mb-4 text-2xl font-semibold">Send Us a Message</h2>
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="name" className="block mb-2 font-semibold text-gray-700">
               Full Name
             </label>
             <input
@@ -62,11 +62,11 @@ const collectData = async(e) =>{
               value={name}
               onChange={(e)=> SetName(e.target.value)} 
            
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="phone" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="phone" className="block mb-2 font-semibold text-gray-700">
               Phone number
             </label>
             <input
@@ -75,11 +75,11 @@ const collectData = async(e) =>{
               name='phone'
               value={phone}
               onChange={(e)=> SetPhone(e.target.value)} 
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="email" className="block mb-2 font-semibold text-gray-700">
               Email
             </label>
             <input
@@ -88,11 +88,11 @@ const collectData = async(e) =>{
               name='email'
               value={email}
               onChange={(e)=> SetEmail(e.target.value)} 
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="subject" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="subject" className="block mb-2 font-semibold text-gray-700">
               Subject
             </label>
             <input
@@ -102,11 +102,11 @@ const collectData = async(e) =>{
               value={subject}
               onChange={(e)=> SetSubject(e.target.value)} 
              
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-gray-700 font-semibold mb-2">
+            <label htmlFor="message" className="block mb-2 font-semibold text-gray-700">
               Message
             </label>
             <textarea
@@ -116,12 +116,12 @@ const collectData = async(e) =>{
               onChange={(e)=> SetMessage(e.target.value)} 
             
               rows="4"
-              className="w-full border border-gray-300 rounded-md py-2 px-3 text-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full px-3 py-2 text-gray-700 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
             ></textarea>
           </div>
           <button
             type="submit"
-            className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md"
+            className="px-4 py-2 font-semibold text-white bg-blue-600 rounded-md hover:bg-blue-700"
           >
             Send Message
           </button>
@@ -130,7 +130,7 @@ const collectData = async(e) =>{
         <ToastContainer />
       
       </div>
-      <div className="max-w-8xl  mx-auto px-4 sm:px-6 lg:px-8 mt-10 flex justify-center space-x-6">
+      <div className="flex justify-center px-4 mx-auto mt-10 space-x-6 max-w-8xl sm:px-6 lg:px-8">
         <div className="flex items-center text-gray-600">
           <svg
             className="w-8 h-8 mr-2"

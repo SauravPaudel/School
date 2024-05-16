@@ -114,9 +114,9 @@ const Home = () => {
       </div> */}
 
       {/* Hero Section */}
-      <div className="flex flex-col items-center justify-center min-h-screen py-20 md:flex-row">
+      <div className="flex flex-col items-center justify-center min-h-screen py-20 md:flex-row mt-[120px]">
         <div className="flex flex-col justify-center w-full gap-4 text-center">
-          <p className="text-4xl text-[#162545] md:text-7xl capitalize font-semibold">
+          <p className="text-4xl text-[#162545] md:text-7xl capitalize font-black md:font-semibold">
             Shree Annapurna Vidhya Mandir
           </p>
           <p className='items-center justify-center w-full pt-4 text-gray-700 text-1xl sm:text-2xl'>Social Transformation Through Quality Education </p>

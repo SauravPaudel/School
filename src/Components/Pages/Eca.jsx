@@ -13,7 +13,7 @@ import project from '../../assets/project.jpg'
 
 const Eca = () => {
   return (
-    <div className='w-full px-[5%] pt-10 overflow-hidden gap-8 flex flex-col'>
+    <div className='w-full px-[5%] pt-10 overflow-hidden gap-8 flex flex-col mt-[120px]'>
 
       {/* Heading */}
       <div className='flex-col'>

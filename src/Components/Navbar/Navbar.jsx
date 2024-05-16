@@ -15,6 +15,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleLinkClick = () => {
     // Close the menu when a NavLink is clicked
+    window.scrollTo({ top: 0 });
     setToggleMenu(false);
   };
   const [darkMode, setDarkMode] = useState(false);
@@ -22,11 +23,26 @@ const Navbar = () => {
   const toggleMode = () => {
     setDarkMode(prevMode => !prevMode);
   };
+
+  const toTop = () => {
+    window.scrollTo({ top: 0 })
+  }
+
   return (
     <div className="app">
+      <marquee behavior="" direction="" className='fixed bg-[#0a1122] z-20 top-0'>
+        <ul className="z-20 flex gap-4 py-2 text-white list-disc">
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+        </ul>
+      </marquee>
       <nav>
-        <div className="max-w-8xl mx-auto bg-[#162545] text-white ">
-          <div className="flex justify-between w-full px-[5%] ">
+        <div className="text-white">
+          <div className="flex justify-between w-full px-[5%] fixed top-[40px] bg-[#162545] z-20">
             {/* Primary Menu and Logo */}
             <div className="flex items-center gap-12">
               {/* logo */}
@@ -38,12 +54,12 @@ const Navbar = () => {
               </div>
               {/* primary */}
               <div className="hidden gap-8 lg:flex ">
-                <NavLink to="/Home">Home</NavLink>
-                <NavLink to="/Admission">Admission</NavLink>
-                <NavLink to="/Faculty">Faculty</NavLink>
-                <NavLink to="/Eca">ECA</NavLink>
-                <NavLink to="/Notice">Notice</NavLink>
-                <NavLink to="/About">About</NavLink>
+                <NavLink onClick={toTop} to="/Home">Home</NavLink>
+                <NavLink onClick={toTop} to="/Admission">Admission</NavLink>
+                <NavLink onClick={toTop} to="/Faculty">Faculty</NavLink>
+                <NavLink onClick={toTop} to="/Eca">ECA</NavLink>
+                <NavLink onClick={toTop} to="/Notice">Notice</NavLink>
+                <NavLink onClick={toTop} to="/About">About</NavLink>
               </div>
             </div>
             {/* Secondary Menu*/}
@@ -56,7 +72,7 @@ const Navbar = () => {
                 <div>
                   <NavLink to="/Signup">
                     <button className={`rounded-full border-solid border-2 border-gray-300 py-2 px-4 hover:bg-gray-700 hover:text-gray-100 ${darkMode ? 'dark:bg-gray-800 dark:text-white' : ''}`}>
-                      Sign In
+                      Contact
                     </button>
                   </NavLink>
                 </div>
@@ -72,7 +88,7 @@ const Navbar = () => {
         </div>
         {/* mobile navigation */}
         <div
-          className={`absolute z-40 w-full  bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-full"
+          className={`fixed mt-[120px] z-40 w-full  bg-gray-100 overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-full"
             }`}
         >
           <div className="px-8 py-6">
@@ -83,6 +99,7 @@ const Navbar = () => {
               <NavLink to="/Eca" onClick={handleLinkClick}>ECA</NavLink>
               <NavLink to="/Notice" onClick={handleLinkClick}>Notice</NavLink>
               <NavLink to="/About" onClick={handleLinkClick}>About</NavLink>
+              <NavLink to="/Signup" onClick={handleLinkClick}>Contact</NavLink>
             </div>
           </div>
         </div>

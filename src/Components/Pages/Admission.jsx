@@ -33,7 +33,7 @@ const routeTo = () => {
 
 const Admission = () => {
   return (
-    <div className="w-full px-[5%] overflow-hidden ">
+    <div className="w-full px-[5%] overflow-hidden mt-[120px] ">
 
       {/* Hero Section */}
       <div className='flex flex-col w-full gap-12 my-20 md:flex-row'>

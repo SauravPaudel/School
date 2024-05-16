@@ -137,9 +137,8 @@ const Notice = () => {
 
   return (
     <>
-      <div className="w-full px-[5%] overflow-hidden ">
-
-        {/* Hero Section */}
+      {/* Hero Section */}
+      <div className="w-full px-[5%] overflow-hidden mt-[120px]">
         <div className='flex flex-col w-full gap-12 mt-20 md:flex-row'>
           <div className='flex flex-col w-full gap-4'>
             <span className='font-bold text-black'>Notice , Publication And Calendar</span>
@@ -155,13 +154,12 @@ const Notice = () => {
             <img className=' h-[400px] rounded-lg py-2' src={schoolabout} alt="" />
           </div>
         </div>
-        {/* End of Hero Section */}
-
       </div>
+      {/* End of Hero Section */}
 
-
-      <div className="py-16 bg-navy-900">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      {/* Downloads */}
+      <div className="py-16">
+        <div className="w-full px-[5%]">
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
               <span className="bg-clip-text text-transparent bg-[#162545]">
@@ -175,29 +173,25 @@ const Notice = () => {
               showcases a wide array of creative works from across the school community.
             </p>
           </div>
-          <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-5 mt-12 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
             {magazineIssues.map((issue, index) => (
               <div key={index} className="overflow-hidden shadow bg-navy-800 sm:rounded-lg">
-                <div className="px-4 py-5 sm:px-6">
-                  <div className="bg-[#162545] rounded-lg p-6">
+                <div className="flex flex-col items-center px-4 py-5 sm:px-6">
+                  <div className="bg-[#162545] rounded-lg p-6 flex itesm-center justify-center w-max sm:w-full">
                     <img
                       className="h-[180px] w-[200px]  object-cover"
                       src={issue.image}
                       alt=""
                     />
                   </div>
-                  <div className="mt-8 w-[300px] sm:flex sm:items-center sm:justify-between">
-                    <div className="sm:flex-1">
-                      <h3 className="text-lg font-medium leading-6 text-black">{issue.grade}</h3>
-                    </div>
-                    <div className="flex items-center justify-between mt-4 sm:mt-0">
-                      <button
-                        type="button"
-                        className="inline-flex relative top-[45px] right-14 items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-teal-600 hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
-                      >
-                        Download
-                      </button>
-                    </div>
+                  <div className="flex flex-col items-center justify-center w-full gap-8 mt-8">
+                    <h3 className="text-lg font-medium leading-6 text-center text-black sm:text-start">{issue.grade}</h3>
+                    <button
+                      type="button"
+                      className="flex items-center px-4 py-2 text-base font-medium text-white bg-teal-600 border border-transparent rounded-md shadow-sm w-max hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                    >
+                      Download
+                    </button>
                   </div>
                   <div className="flex justify-between mt-4">
                     <span className="text-sm text-gray-500">{issue.date}</span>
@@ -208,13 +202,12 @@ const Notice = () => {
           </div>
         </div>
       </div>
+      {/* End of Downloads */}
 
-
-      <div className='flex-col  ml-[60px] relative left-2 top-14 max-h-[400px] '>
+      {/* Recent Events */}
+      <div className="w-full px-[5%] mt-20">
         <span className='text-2xl font-bold text-black'>Recent Events</span><br></br>
-      </div>
-      <div className="w-[1350px] ml-[60px] bg-gray-900 py-20 mt-20 mb-20">
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="py-20 mx-auto bg-gray-900 px-[5%] mt-12 rounded-3xl">
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
             {events.map((event, index) => (
               <div key={index} className="overflow-hidden bg-gray-800 rounded-lg shadow-lg">

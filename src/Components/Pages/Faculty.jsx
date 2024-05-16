@@ -39,10 +39,10 @@ const routeTo = () => {
 
 const Faculty = () => {
   return (
-    <div className='w-full flex flex-col px-[5%]'>
+    <div className='w-full flex flex-col px-[5%] mt-[120px]'>
 
       {/* Hero Section */}
-      <div className='flex flex-col w-full gap-12 py-12 mb-16 md:flex-row'>
+      <div className='flex flex-col w-full gap-12 py-20 mb-16 md:flex-row'>
         <div className='flex flex-col w-full gap-4 text-black'>
           <span className='font-bold'>Our Community</span>
           <p className='text-justify'> The faculty at Annapurna Vidhya Mandir School strives to cultivate a nurturing environment for all learners. The dedicated faculty members of our school are the backbone of our educational community, bringing passion, expertise, and innovation to the classroom every day. With their unwavering commitment to student success, they create engaging learning environments that inspire curiosity, critical thinking, and lifelong learning.</p>
