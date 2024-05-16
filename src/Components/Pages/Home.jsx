@@ -290,7 +290,7 @@ const Home = () => {
           <div className="flex flex-col items-center duration-300 hover:scale-[1.02]">
             <img src={student1} alt="Image 1" className="w-[320px] h-[320px] object-cover rounded-lg mb-4" />
             <h2 className="mb-2 text-2xl font-bold">Student</h2>
-            <p className="mb-4 text-center">
+            <p className="mb-4 text-center px-auto w-10/11">
               An online version of the student handbook outlining school policies, code of conduct, and procedures to ensure a safe and respectful learning environment.
             </p>
             <Link onClick={routeTo} to="/Eca">
@@ -302,7 +302,7 @@ const Home = () => {
           <div className="flex flex-col items-center duration-300 hover:scale-[1.02]">
             <img src={students} alt="Image 2" className="w-[320px] h-[320px] object-cover rounded-lg mb-4" />
             <h2 className="mb-2 text-2xl font-bold">Library</h2>
-            <p className="mb-4 text-center">
+            <p className="w-10/12 mb-4 text-center px-auto">
               The Library Section at Annapurna School is a vibrant hub of knowledge and exploration. Stocked with a diverse collection of books, periodicals, and multimedia resources.
             </p>
             <Link onClick={routeTo} to="/Notice">
