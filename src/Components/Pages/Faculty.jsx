@@ -148,7 +148,7 @@ const Faculty = () => {
               className="w-[350px] h-[350px] rounded-md object-cover "
             />
             <div className="mt-4 w-[350px]   text-center rounded-md border-2 border-gray-300 p-2">
-              <p>Ms. Gyatri </p>
+              <p>Ms. Gyatri Aryal </p>
               <p>Teacher</p>
             </div>
           </div>
