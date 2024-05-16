@@ -127,11 +127,11 @@ const Home = () => {
       {/* Details */}
       <div className='flex w-full min-h-screen px-[5%]'>
         <div className='flex flex-col w-full gap-12'>
-          <h5 className='relative inline text-2xl font-bold text-center text-blue-900 md:text-start'>Annapurna Vidhya Mandir School</h5>
+          <h5 className='relative inline text-2xl font-bold text-center text-blue-900 md:text-start'>Shree Annapurna Vidhya Mandir School</h5>
           <div className='flex flex-col gap-12 md:flex-row'>
             <div className='flex flex-col gap-8'>
               <img className='rounded-lg max-h-[400px] object-cover object-center md:h-auto border-b-4 border-r-4 border-blue-900' src={school2} alt="" />
-              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'>Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
+              <p className='pb-8 text-black border-b-2 border-black rounded-b-sm'> Shree Annapurna Vidhya Mandir School, situated in the serene landscapes of Kopawa village in Nepal's Kapilvastu district, stands as a beacon of educational excellence. Established in 2054, the school is committed to nurturing young minds, imparting not only academic knowledge but also instilling values of integrity, compassion, and leadership. With a focus on holistic development, it offers a conducive learning environment, equipped with modern facilities and a dedicated faculty.</p>
             </div>
             <div className='flex flex-col gap-8'>
               <img className='rounded-lg max-h-[400px] object-cover object-center md:h-auto border-b-4 border-r-4 border-blue-900' src={school3} alt="" />
@@ -145,7 +145,7 @@ const Home = () => {
       <div className='flex flex-col md:flex-row px-[5%] gap-16 md:gap-0 w-full pt-20 h-max'>
         <div className='flex-col relative flex max-h-[400px] w-full'>
           <span className='font-bold text-black'>Our Program</span><br></br>
-          <p className='pt-4 font-bold text-blue-900 '>The Shree Annapurna Vidhya Mandir Inspire learning with <br></br> limitless possiblities</p>
+          <p className='pt-4 font-bold text-blue-900 '>Shree Annapurna Vidhya Mandir Inspire learning with <br></br> limitless possiblities</p>
           <p className='text-black max-w-[500px] pt-6 '>The program section of Shree Annapurna Vidhya Mandir encompasses a diverse range of educational offerings tailored to meet the needs of students at various stages of their academic journey. From early childhood education to advanced placement courses, our programs are designed to foster intellectual curiosity, critical thinking, and holistic development. Through innovative teaching methods, experiential learning opportunities, and a focus on individualized instruction, we strive to inspire a lifelong love for learning in our students. </p>
           <Link to="/Faculty">
             <button type="button" className="relative inline-flex items-center px-4 py-3 text-sm font-semibold text-white bg-gray-800 border rounded-lg gap-x-2 border-gray hover:bg-gray-900 disabled:opacity-50 disabled:pointer-events-none top-10">
