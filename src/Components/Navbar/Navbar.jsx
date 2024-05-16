@@ -13,6 +13,10 @@ import {
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const handleLinkClick = () => {
+    // Close the menu when a NavLink is clicked
+    setToggleMenu(false);
+  };
   const [darkMode, setDarkMode] = useState(false);
 
   const toggleMode = () => {
@@ -73,12 +77,12 @@ const Navbar = () => {
         >
           <div className="px-8 py-6">
             <div className="flex flex-col gap-8 font-bold tracking-wider">
-              <NavLink to="/Home">Home</NavLink>
-              <NavLink to="/Admission">Admission</NavLink>
-              <NavLink to="/Faculty">Faculty</NavLink>
-              <NavLink to="/Eca">ECA</NavLink>
-              <NavLink to="/Notice">Notice</NavLink>
-              <NavLink to="/About">About</NavLink>
+              <NavLink to="/Home" onClick={handleLinkClick}>Home</NavLink>
+              <NavLink to="/Admission" onClick={handleLinkClick}>Admission</NavLink>
+              <NavLink to="/Faculty" onClick={handleLinkClick}>Faculty</NavLink>
+              <NavLink to="/Eca" onClick={handleLinkClick}>ECA</NavLink>
+              <NavLink to="/Notice" onClick={handleLinkClick}>Notice</NavLink>
+              <NavLink to="/About" onClick={handleLinkClick}>About</NavLink>
             </div>
           </div>
         </div>
