@@ -53,7 +53,7 @@ const Footer = () => {
               <p className="mb-2 transition duration-300 hover:text-red-800">Banganga 05, kapilvastu</p>
               <p className="mb-2 transition duration-300 hover:text-red-800">GPO Box. 8975, EPC 1477,</p>
               <p className="mb-2 transition duration-300 hover:text-red-800">Phone: +977-985-7055181</p>
-              <p className="mb-2 transition duration-300 hover:text-red-800">Email:avm2058@gmail.com</p>
+              <p className="mb-2 transition duration-300 hover:text-red-800">Email: avm2058@gmail.com</p>
             </div>
           </div>
           <div>
