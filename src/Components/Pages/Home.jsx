@@ -9,7 +9,7 @@ import school3 from '../../assets/program3.jpg'
 import student from '../../assets/student.png'
 import principal from '../../assets/principal.jpg'
 import student1 from '../../assets/student1.jpg'
-import school from '../../assets/school.png'
+import school from '../../assets/laptop.png'
 import students from '../../assets/students.jpg'
 import chairman from '../../assets/chairman.jpg'
 
