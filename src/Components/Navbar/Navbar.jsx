@@ -32,12 +32,12 @@ const Navbar = () => {
     <div className="app">
       <marquee behavior="" direction="" className='fixed bg-[#0a1122] z-20 top-0'>
         <ul className="z-20 flex gap-4 py-2 text-white list-disc">
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
-          <li className='pr-4'>Hello Hello, kaise ho app, ye bas mujko labe karane ka hai aur copy paste kardenge samjhe ka?</li>
+          <li className='pr-4'>Admission are open from Class one to Eight. </li>
+          <li className='pr-4'>Admission are open from Class one to Eight. </li>
+          <li className='pr-4'>Admission are open from Class one to Eight. </li>
+          <li className='pr-4'>Admission are open from Class one to Eight. </li>
+          <li className='pr-4'>Admission are open from Class one to Eight. </li>
+         
         </ul>
       </marquee>
       <nav>
